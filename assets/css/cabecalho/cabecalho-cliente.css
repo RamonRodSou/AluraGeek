@@ -1,0 +1,6 @@
+.cabecalho__cliente {
+
+    display: flex;
+    gap:0.5rem;
+    margin:0 1rem;
+}

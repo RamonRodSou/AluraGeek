@@ -1,0 +1,6 @@
+.produto__item, article{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

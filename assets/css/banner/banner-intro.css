@@ -1,0 +1,14 @@
+.banner__intro{
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    text-shadow: 2px 3px #3d3c3c;
+    
+    margin: 1rem 0;
+
+    height: 61px;
+    width: 751px;
+}

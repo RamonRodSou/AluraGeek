@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alura Geek | Cadastrar</title>
+        <link rel="stylesheet" href="../../assets/css/reset/reset.css">
+        <link rel="stylesheet" href="../../assets/css/geral/style.css">
+        <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-pesquisa.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="../../assets/css/banner/container-banner.css">
+        <link rel="stylesheet" href="../../assets/css/banner/banner-info.css">
+        <link rel="stylesheet" href="../../assets/css/banner/banner-intro.css">
+        <link rel="stylesheet" href="../../assets/css/banner/banner-promocao.css">
+        <link rel="stylesheet" href="../../assets/css/banner/banner-botao.css">
+        <link rel="stylesheet" href="../../assets/css/login/container-login.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-titulo.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-inputContainer.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-email.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-senha.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-entrar.css">
+        <link rel="stylesheet" href="../../assets/css/login/login-botao.css">
+
+        <link rel="stylesheet" href="../../assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="../../assets/css/componentes/inputs.css">
+        <link rel="stylesheet" href="../../assets/css/componentes/botao.css">
+
+        <link rel="stylesheet" href="../../assets/css/cadastro/cadastro-botao.css">
+
+
+    </head>
+    <body>
+        <header class="cabecalho container">
+                <div class="cabecalho__item">
+                    <div class="cabecalho__item--LogoPesquisa">
+                        <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                        <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
+                    </div>
+                    <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
+                </div>
+        </header>
+        <section class="container__login">
+            <h1 class="login__titulo">Iniciar Sessão</h1>
+            <form class="login__entrar" data-form>
+                <div class="formcontato__input--container">
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>
+                    <label class="input-label" for="nome">Nome</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="formcontato__input--container">
+                    <input name="email" id="email" class="input login__email" type="email" placeholder="Email" data-email data-tipo="email" required>
+                    <label class="input-label" for="email">Email</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formcontato__input--container">
+                    <input name="senha" id="senha" class="input login__senha" type="password" placeholder="Senha" data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-senha required>
+                    <label class="input-label" for="senha">Senha</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="formcontato__input--container">
+                    <input name="nascimento" id="nascimento" class="input input__data" type="date" placeholder="Data de nascimento" data-data data-tipo="dataNascimento" required>
+                    <label class="input-label" for="nascimento">Data de nascimento</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <!--<div class="formcontato__input--container">
+                    <input name="cpf" id="cpf" class="input input__cpf" type="text" placeholder="CPF" data-tipo="cpf" required>
+                    <label class="input-label" for="cpf">CPF</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div> -->
+                <a href="./cadastro_concluido.html"><button type="submit" class="cadastro__botao">Cadastrar</button></a>
+            </form>
+        </section>
+        <script type="module" src="../validacoes/app.js"></script>
+        <!-- <script type="module" src="../../admin/controller/cadastraClientes-controller.js"></script> -->
+    </body>
+</html>

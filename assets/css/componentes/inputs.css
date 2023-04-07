@@ -1,0 +1,76 @@
+.formcontato__input--container{
+}
+
+.input {
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--cor-secundaria);
+    padding: 0.5rem 0.5rem;
+    width: 80%;
+}
+.input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    color: red;
+}
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-label {
+
+    color: #A2A2A2;
+    font-size: var(--fonte-tamanho-input-label);
+    transition: all .25s;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+    font-size: 0.875rem;
+    transition: all .25s;
+
+}
+
+.input::placeholder {
+    visibility: hidden;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.formcontato__input--container--invalido .input {
+    border: 1px solid var(--cor-aviso);
+    border-radius: 7px;
+}
+
+.formcontato__input--container--invalido .input-label {
+    color: var(--cor-aviso);
+}
+
+
+.formcontato__input--container--invalido {
+    color: #A2A2A2;
+    margin-bottom: 0.5rem;
+}
+
+.formcontato__input--container--invalido .input {
+    border: 1px solid var(--cor-aviso);
+    border-radius: 7px;
+}
+
+.formcontato__input--container--invalido .input-label {
+    color: var(--cor-aviso);
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.formcontato__input--container--invalido .input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    color: red;
+}

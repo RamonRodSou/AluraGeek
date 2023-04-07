@@ -1,0 +1,16 @@
+.cabecalho__botao{
+
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #2A7AE4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 51px;
+    width: 182px;
+
+}

@@ -1,0 +1,33 @@
+{
+  "profile": [
+    {
+      "nome": "ramon",
+      "email": "ramonrodsouza@gmail.com",
+      "senha": "Ra138311",
+      "data": "1993-07-02",
+      "id": 1
+    },
+    {
+      "nome": "Samara",
+      "email": "samara@gmail.com",
+      "senha": "Sa123456",
+      "data": "1992-07-18",
+      "id": 2
+    },
+    {
+      "nome": "Eloisa",
+      "email": "eloisa@gmail.com",
+      "senha": "El124578",
+      "data": "2022-10-20",
+      "id": 3
+    }
+  ],
+  "produto": [
+    {
+      "imageUrl": "../../assets/img/produto/1.png",
+      "produto": "Caneca StarWars",
+      "valor": "60,00",
+      "id": 1
+    }
+  ]
+}

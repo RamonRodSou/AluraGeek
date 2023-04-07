@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alura Geek | Lista de Clientes</title>
+        <link rel="stylesheet" href="../../assets/css/reset/reset.css">
+        <link rel="stylesheet" href="../../assets/css/geral/style.css">
+        <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-cliente.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-pesquisa.css">
+        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-botao.css">
+    </head>
+    <body>
+        <header class="cabecalho container">
+                <div class="cabecalho__item">
+                    <div class="cabecalho__item--LogoPesquisa">
+                        <img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
+                        <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
+                    </div>
+                    <nav class="cabecalho__cliente">
+                        <a href="./cadastro.html"><button class="cabecalho__botao">Cadastro</button></a>  
+                        <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
+                    </nav>
+                </div>
+        </header>
+    <main class="clientes-container">
+        <table class="tabela">
+            <thead>
+                <tr>
+                    <th class="tabela__coluna--p">Nome</th>
+                    <th class="tabela__coluna--g">Email</th>
+                    <th class="tabela__coluna--m tabela__alinhamento--direita"><a href="./cadastra_cliente.html" class="botao-simples botao-simples--adicionar">Novo Cliente</a></th>
+                </tr>
+            </thead>
+            <tbody data-tabela>
+                
+            </tbody> 
+        </table>
+        <div class="modal-container modal--fechado">
+            <article class="modal">
+                <h2 class="modal__titulo">
+                    Excluir
+                </h2>
+                <button class="modal__fechar">X</button>
+                <p class="modal__texto">Deseja excluir essa entrada?</p>
+                <div class="modal__botao-container">
+                    <button class="modal__botao modal__botao--confirmar">Excluir</button>
+                    <button class="modal__botao">Não excluir</button>
+                </div>
+            </article>
+        </div>
+    </main>
+    <script type="module"src="../controller/listaClientes-controller.js"></script>
+</body> 
+
+
+</html>
+

@@ -1,0 +1,18 @@
+
+.cabecalho__pesquisa--input {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 393px;
+    height: 40px;
+
+    border-radius: 20px;
+    border: 2px solid #cacaca;
+
+    background: url(../../img/cabecalho/lupa.png) no-repeat scroll 2px 1px; 
+    background-position: 21.5rem;
+    padding-left:1.5rem;
+
+}

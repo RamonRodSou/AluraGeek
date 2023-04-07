@@ -1,12 +1,4 @@
-.formcontato__input--container{
-}
 
-.input {
-    box-sizing: border-box;
-    border-bottom: 1px solid var(--cor-secundaria);
-    padding: 0.5rem 0.5rem;
-    width: 80%;
-}
 .input-mensagem-erro {
     color: var(--cor-aviso);
     display: block;
@@ -20,7 +12,7 @@
 
 .input-label {
 
-    color: #A2A2A2;
+    color: var(--azul);
     font-size: var(--fonte-tamanho-input-label);
     transition: all .25s;
 }

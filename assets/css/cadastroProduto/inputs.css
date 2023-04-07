@@ -5,12 +5,10 @@
 }
 
 .input{
-    border: 1px solid rgb(36, 51, 194);
-    border-radius: 7px;
-    width: 25rem;
-    height: 2rem;
-    text-align: center;
-    color: var(--cor-secundaria);
+    box-sizing: border-box;
+    border: 1px solid var(--cor-secundaria);
+    padding: 0.5rem;
+    width: 30%;
     
 }
 
@@ -29,7 +27,7 @@
 
 }
 
-.input__label {
+.input-label {
 
     color: var(--cor-primaria);
 

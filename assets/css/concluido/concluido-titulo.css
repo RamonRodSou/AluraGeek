@@ -1,0 +1,8 @@
+.concluido__titulo {
+
+    color:var(--azul);
+    font-weight: 400;
+    font-size: 2rem;
+    text-shadow: 2px 3px 5px #b4b5b8;
+    margin: 1rem 0 2rem;
+}

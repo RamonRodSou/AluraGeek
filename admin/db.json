@@ -20,6 +20,13 @@
       "senha": "El124578",
       "data": "2022-10-20",
       "id": 3
+    },
+    {
+      "nome": "antonio",
+      "email": "antonio@gmail.com",
+      "senha": "As123456",
+      "data": "2020-07-13",
+      "id": 4
     }
   ],
   "produto": [
@@ -28,6 +35,36 @@
       "produto": "Caneca StarWars",
       "valor": "60,00",
       "id": 1
+    },
+    {
+      "imageUrl": "../../assets/img/produto/2.png",
+      "produto": "Boneco StarWars",
+      "valor": "60,50",
+      "id": 2
+    },
+    {
+      "imageUrl": "../../assets/img/produto/3.png",
+      "produto": "Boneco Yoda",
+      "valor": "60,50",
+      "id": 3
+    },
+    {
+      "imageUrl": "../../assets/img/produto/4.png",
+      "produto": "Boneco StarWars",
+      "valor": "60,50",
+      "id": 4
+    },
+    {
+      "imageUrl": "../../assets/img/produto/5.png",
+      "produto": "Yoda",
+      "valor": "60,50",
+      "id": 5
+    },
+    {
+      "imageUrl": "../../assets/img/produto/6.png",
+      "produto": "StarWars",
+      "valor": "60,50",
+      "id": 6
     }
   ]
 }

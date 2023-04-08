@@ -20,13 +20,6 @@
       "senha": "El124578",
       "data": "2022-10-20",
       "id": 3
-    },
-    {
-      "nome": "antonio",
-      "email": "antonio@gmail.com",
-      "senha": "As123456",
-      "data": "2020-07-13",
-      "id": 4
     }
   ],
   "produto": [
@@ -78,6 +71,13 @@
       "valor": "1000,00",
       "categoria": "2",
       "id": 7
+    },
+    {
+      "imageUrl": "C:\\fakepath\\4.png",
+      "produto": "Eloisa",
+      "valor": "30,00",
+      "categoria": "3",
+      "id": 8
     }
   ]
 }

@@ -2,8 +2,9 @@ import { clienteService } from '../service/cliente-service.js'
 
 const criaNovaLinha = (nome, email, id) =>  { 
   const linhaNovoCliente = document.createElement('tr')
+  linhaNovoCliente.classList.add('lista__tr')
   const conteudo = `
-      <td class="td" data-td>${nome}</td>
+                  <td class="td" data-td>${nome}</td>
                   <td>${email}</td>
                   <td>
                       <ul class="tabela__botoes-controle">

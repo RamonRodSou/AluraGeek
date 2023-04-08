@@ -6,12 +6,12 @@ import { produtoService } from '../service/produto-service.js'
 
   const id = pegaURL.searchParams.get('id')
   
-  const inputProduto = document.querySelector('[data-produto]')
-  const inputValor = document.querySelector('[data-valor]')
+  const inputNome = document.querySelector('[data-nome]')
+  const inputEmail = document.querySelector('[data-email]')
   try { 
     const dados = await produtoService.detalhaProduto(id)
-    inputProduto.value = dados.produto
-    inputValor.value = dados.valor
+    inputNome.value = dados.nome
+    inputEmail.value = dados.email
   }
   catch(erro){
     console.log(erro)
@@ -25,7 +25,7 @@ import { produtoService } from '../service/produto-service.js'
   formulario.addEventListener('submit', async (evento)=> { 
     evento.preventDefault()
     try {
-      await produtoService.atualizaProduto(id, inputProduto.value, inputValor.value)
+      await produtoService.atualizaProduto(id, inputNome.value, inputEmail.value)
       window.location.href = "../page/edicao_concluida.html"
     }
     catch(erro){

@@ -29,8 +29,8 @@ const criaProduto = (imageUrl, produto, valor, categoria) => {
     })
 }
 
-const removeProduto = (id) => { 
-    return fetch(`http://localhost:3000/produto/${id}`, {
+const removeProduto = (categoria,id) => { 
+    return fetch(`http://localhost:3000/produto/${categoria}/${id}`, {
         method: 'DELETE'
     })
     .then( resposta => { 
@@ -40,8 +40,8 @@ const removeProduto = (id) => {
     })
 }
  
-const detalhaProduto = (id) => { 
-    return fetch(`http://localhost:3000/produto/${id}`)
+const detalhaProduto = (categoria,id) => { 
+    return fetch(`http://localhost:3000/produto/${categoria}/${id}`)
     .then(resposta => { 
         if(resposta.ok){
             return resposta.json()
@@ -52,7 +52,7 @@ const detalhaProduto = (id) => {
 }
 
 const atualizaProduto = (imageUrl, produto, valor, categoria, id) => {
-    return fetch(`http://localhost:3000/produto/${id}`, {
+    return fetch(`http://localhost:3000/produto/${categoria}/${id}`, {
         method: 'PUT',
         headers: { 
             'Content-type' : 'application/json'

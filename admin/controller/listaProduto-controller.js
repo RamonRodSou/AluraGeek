@@ -3,9 +3,9 @@ import { produtoService } from '../service/produto-service.js'
 const criaNovaLinha = (imageUrl, produto, valor,id) =>  { 
   const linhaNovoProduto = document.createElement('article')
   const conteudo = `
-        <img src="${imageUrl}?raw=true" alt="Produto StarWars" class="produto__img">
-        <p class="produto__descricao">${produto}</p>
-        <p class="produto__valor">R$:${valor}</p>
+        <img src="${imageUrl}?raw=true" data-produtoImg alt="Produto StarWars" class="produto__img">
+        <p class="produto__descricao" data-produtoNome>${produto}</p>
+        <p class="produto__valor" data-produtoValor>R$:${valor}</p>
         <a href="" class="produto__produto">Ver produto</a>
                   `
   linhaNovoProduto.innerHTML = conteudo
@@ -45,19 +45,19 @@ const render = async () =>  {
 }
 render()
 
-  // produto.addEventListener('click', async (evento)=> {
-//     let ehBotaoDeDeleta = evento.target.className === 'botao-simples botao-simples--excluir'
-//     if(ehBotaoDeDeleta){
-//         try {
-//             const linhaProduto = evento.target.closest('[data-id]')
-//             let id = linhaProduto.dataset.id
-//             await produtoService.removeProduto(id)
-//             linhaProduto.remove()
-//         }
-//         catch(erro){
-//             console.log(erro)
-//             window.location.href="../page/erro.html"
-//         }
-//     }
-// })
+  produto.addEventListener('click', async (evento)=> {
+    let ehBotaoDeDeleta = evento.target.className === 'botao-simples botao-simples--excluir'
+    if(ehBotaoDeDeleta){
+        try {
+            const linhaProduto = evento.target.closest('[data-id]')
+            let id = linhaProduto.dataset.id
+            await produtoService.removeProduto(id)
+            linhaProduto.remove()
+        }
+        catch(erro){
+            console.log(erro)
+            window.location.href="../page/erro.html"
+        }
+    }
+})
 

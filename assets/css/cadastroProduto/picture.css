@@ -1,6 +1,8 @@
-.picture__input {
-}
-.picture {
+#picture__input {
+    display: none;
+  }
+  
+  .picture {
     width: 400px;
     aspect-ratio: 16/9;
     background: #ddd;
@@ -14,25 +16,26 @@
     transition: color 300ms ease-in-out, background 300ms ease-in-out;
     outline: none;
     overflow: hidden;
-}
-
-.picture:hover {
+  }
+  
+  .picture:hover {
     color: #777;
     background: #ccc;
-}
-
-.picture:active {
+  }
+  
+  .picture:active {
     border-color: turquoise;
     color: turquoise;
     background: #eee;
-}
-
-.picture:focus {
+  }
+  
+  .picture:focus {
     color: #777;
     background: #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.picture__img {
+  }
+  
+  .picture__img {
     max-width: 100%;
-}
+  }
+  

@@ -1,12 +1,10 @@
-import { valida } from './validacao.js'
+import { valida } from "./validacao.js"
 
-const inputs = document.querySelectorAll('input');
+const inputs = document.querySelectorAll('input')
 
 inputs.forEach(input => {
-
-    if(input.dataset.tipo === 'preco'){  // formatando preço aparece O R$ e valores 0,00
-
-        SimpleMaskMoney.setMask (input, {
+    if(input.dataset.tipo === 'preco') {
+        SimpleMaskMoney.setMask(input, {
             prefix: 'R$ ',
             fixed: true,
             fractionDigits: 2,
@@ -16,7 +14,8 @@ inputs.forEach(input => {
         })
     }
 
+
     input.addEventListener('blur', (evento) => {
-        valida(evento.target);
+        valida(evento.target)
     })
-})
+});

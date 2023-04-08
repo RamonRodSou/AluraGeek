@@ -20,6 +20,3 @@ const formulario = document.querySelector('[data-formProduto]')
   }
 })
 
-const pictureImage = document.querySelector(".picture__image");
-const pictureImageTxt = "Escolha uma Imagem";
-pictureImage.innerHTML = pictureImageTxt;

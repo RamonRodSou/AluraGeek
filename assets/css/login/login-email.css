@@ -2,6 +2,6 @@
     
     box-sizing: border-box;
     border: 1px solid var(--cor-secundaria);
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     width: 80%;
 }

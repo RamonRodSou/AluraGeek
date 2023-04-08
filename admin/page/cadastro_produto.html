@@ -53,15 +53,15 @@
                     <div class="cadastroProduto__img">
                         <label class="picture" for="picture__input" tabIndex="0">
                         <span class="picture__image"></span></label>
-                        <input type="file" name="picture__input" class="picture__input" data-img required>
+                        <input type="file" name="picture__input" id="picture__input" accept="image/*" data-img data-tipo="img" required>
                     </div>
                     <div class="cadastroProduto__nome">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-produto required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-produto  data-tipo="nome" required>
                         <label class="input-label" for="nome">Nome</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
                     <div class="cadastroProduto__valor">
-                        <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-valor required>
+                        <input name="preco" id="valor" class="input" type="text" placeholder="Preço" data-valor data-tipo="valor" required>
                         <label class="input-label" for="preco">Preço</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
@@ -72,11 +72,11 @@
                             <label class="input-label" for="categoriaStarwars">StarWars</label>
                         </div>
                         <div>
-                            <input name="categoria" id="categoriaConsole" class="input" type="radio" value="2" data-categoriaC checked>
+                            <input name="categoria" id="categoriaConsole" class="input" type="radio" value="2" data-categoriaC>
                             <label class="input-label" for="categoriaConsole">Console</label>
                         </div>
                         <div>       
-                            <input name="categoria" id="categoriaDiversos" class="input" type="radio" value="3" data-categoriaD>
+                            <input name="categoria" id="categoriaDiversos" class="input" type="radio" value="3" data-categoriaD checked>
                             <label class="input-label" for="categoriaDiversos">Diversos</label>
                         </div>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
@@ -85,6 +85,8 @@
                 </form>
             </section>
         </main>
+        <script type="module" src="../validacoes/picture.js"></script>
+        <script type="module" src="../validacoes/app.js"></script>
         <script type="module" src="../../admin/controller/cadastraProduto-controller.js"></script>
 
     </body>

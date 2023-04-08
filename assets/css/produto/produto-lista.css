@@ -1,6 +1,7 @@
 .produto__lista {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap:1rem;
     margin:1rem 0;
 }

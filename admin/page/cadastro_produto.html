@@ -30,13 +30,11 @@
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-form.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-img.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-botao.css">
+        <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-categoria.css">
+        <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-categoriaTitulo.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/picture.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/inputs.css">
-
-
-
-
-
+        
     </head>
     <body>
         <header class="cabecalho container">
@@ -62,11 +60,27 @@
                         <label class="input-label" for="nome">Nome</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
-                    <div class="cadastroProduto_valor">
+                    <div class="cadastroProduto__valor">
                         <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-valor required>
                         <label class="input-label" for="preco">Preço</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
+                    <fieldset class="cadastroProduto__categoria">
+                        <legend class="cadastroProduto__categoria--titulo">Escolha uma Categoria</legend>
+                        <div>
+                            <input name="categoria" id="categoriaStarwars" class="input" type="radio" value="1" data-categoriaS>
+                            <label class="input-label" for="categoriaStarwars">StarWars</label>
+                        </div>
+                        <div>
+                            <input name="categoria" id="categoriaConsole" class="input" type="radio" value="2" data-categoriaC checked>
+                            <label class="input-label" for="categoriaConsole">Console</label>
+                        </div>
+                        <div>       
+                            <input name="categoria" id="categoriaDiversos" class="input" type="radio" value="3" data-categoriaD>
+                            <label class="input-label" for="categoriaDiversos">Diversos</label>
+                        </div>
+                        <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </fieldset>
                     <button type="submit" class="cadastroProduto__botao"><a href="./cadastro_concluido.html"></a>Add Produto</a></button>
                 </form>
             </section>

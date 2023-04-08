@@ -8,7 +8,7 @@ const listaProduto = () =>  {
     })
 }
 
-const criaProduto = (imageUrl, produto, valor) => { 
+const criaProduto = (imageUrl, produto, valor, categoria) => { 
     return fetch(`http://localhost:3000/produto`, {
         method: 'POST', 
         headers: {
@@ -17,7 +17,8 @@ const criaProduto = (imageUrl, produto, valor) => {
         body: JSON.stringify({
             imageUrl: imageUrl,
             produto: produto,
-            valor: valor
+            valor: valor,
+            categoria:categoria
         })
     })
     .then( resposta => {
@@ -50,7 +51,7 @@ const detalhaProduto = (id) => {
     })
 }
 
-const atualizaProduto = (imageUrl, produto, valor, id) => {
+const atualizaProduto = (imageUrl, produto, valor, categoria, id) => {
     return fetch(`http://localhost:3000/produto/${id}`, {
         method: 'PUT',
         headers: { 
@@ -59,7 +60,8 @@ const atualizaProduto = (imageUrl, produto, valor, id) => {
         body: JSON.stringify({
             imageUrl: imageUrl,
             produto: produto, 
-            valor: valor
+            valor: valor,
+            categoria:categoria
         })
     })
     .then( resposta => {
@@ -76,5 +78,4 @@ export const produtoService = {
     removeProduto,
     detalhaProduto,
     atualizaProduto
-
 }

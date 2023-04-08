@@ -7,9 +7,7 @@
 .input{
     box-sizing: border-box;
     border: 1px solid var(--cor-secundaria);
-    padding: 0.5rem;
-    width: 30%;
-    
+    padding: 0.5rem;    
 }
 
 .input__data, .input__cpf{

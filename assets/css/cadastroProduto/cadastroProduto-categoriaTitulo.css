@@ -1,0 +1,8 @@
+.cadastroProduto__categoria--titulo {
+
+    color:var(--azul);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-shadow: 2px 3px 5px #b4b5b8;
+    margin: 1rem 0;
+}

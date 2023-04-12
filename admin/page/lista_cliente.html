@@ -1,70 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Alura Geek | Lista de Clientes</title>
-        <link rel="stylesheet" href="../../assets/css/reset/reset.css">
-        <link rel="stylesheet" href="../../assets/css/geral/style.css">
-        <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-cliente.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-logo.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-pesquisa.css">
-        <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-botao.css">
-        <link rel="stylesheet" href="../../assets/css/listaEdit/container-tabela.css">
-        <link rel="stylesheet" href="../../assets/css/listaEdit/container-lista.css">
-        <link rel="stylesheet" href="../../assets/css/listaEdit/lista-coluna.css">
-        <link rel="stylesheet" href="../../assets/css/listaEdit/lista.css">
-        <link rel="stylesheet" href="../../assets/css/listaEdit/lista__tr.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Geek | Lista de Clientes</title>
+    <link rel="stylesheet" href="../../assets/css/reset/reset.css">
+    <link rel="stylesheet" href="../../assets/css/geral/style.css">
+    <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-cliente.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-pesquisa.css">
+    <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-botao.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/container-tabela.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/container-lista.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/lista-coluna.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/lista.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/lista__tr.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/tabela-botoes.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/lista-botao.css">
+    <link rel="stylesheet" href="../../assets/css/listaEdit/novoCliente-botao.css">
+    <link rel="stylesheet" href="../../assets/css/perfil/perfil-botao.css">
+    <link rel="stylesheet" href="../../assets/css/perfil/container-perfilNav.css">
 
 
+</head>
 
-    </head>
-    <body>
-        <header class="cabecalho container">
-                <div class="cabecalho__item">
-                    <div class="cabecalho__item--LogoPesquisa">
-                        <img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
-                        <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
-                    </div>
-                    <nav class="cabecalho__cliente">
-                        <a href="./cadastro.html"><button class="cabecalho__botao">Cadastro</button></a>  
-                        <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
-                    </nav>
-                </div>
-        </header>
+<body>
+    <header class="cabecalho container">
+        <nav class="cabecalho__item">
+            <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+            <div class="container__perfil--nav">
+                <a href="./perfil-adm.html"><button class="perfil__botao">Perfil</button></a>
+                <a href="./login.html"><button class="perfil__botao">Sair</button></a>
+            </div>
+        </nav>
+    </header>
     <main class="container__tabela">
         <table class="container__lista">
-            <thead>
+            <thead class="lista">
                 <tr class="lista__tr">
                     <th class="lista__coluna">Nome</th>
                     <th class="lista__coluna">Email</th>
-                    <th class="lista__coluna"><a href="./cadastra_cliente.html" class="botao">Novo Cliente</a></th>
+                    <th class="lista__coluna"><a href="./cadastro.html" class="novoCliente__botao">Novo Cliente</a></th>
                 </tr>
             </thead>
             <tbody data-tabela class="lista">
+
+
                 
-            </tbody> 
+            </tbody>
         </table>
-        <div class="container__lista">
-            <article class="modal">
-                <h2 class="modal__titulo">
-                    Excluir
-                </h2>
-                <button class="modal__fechar">X</button>
-                <p class="modal__texto">Deseja excluir essa entrada?</p>
-                <div class="modal__botao-container">
-                    <button class="modal__botao modal__botao--confirmar">Excluir</button>
-                    <button class="modal__botao">Não excluir</button>
-                </div>
-            </article>
-        </div>
     </main>
-    <script type="module"src="../controller/listaClientes-controller.js"></script>
-</body> 
+    <script type="module" src="../controller/listaClientes-controller.js"></script>
+</body>
 
 
 </html>
-

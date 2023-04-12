@@ -40,6 +40,14 @@ const mensagensDeErro = {
     },
     valor: {
         valueMissing: 'O campo de preço não pode estar vazio.'
+    },
+    loginEmail: {
+        valueMissing: 'O campo de email não pode estar vazio.',
+        typeMismatch: 'O email digitado não é válido.'
+    }, 
+    loginSenha: {
+        valueMissing: 'O campo de senha não pode estar vazio.',
+        patternMismatch:'A senha digitada não é valida.'
     }
 }
 

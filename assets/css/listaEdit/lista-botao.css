@@ -1,0 +1,11 @@
+.lista__botao {
+
+    background-color: var(--azul);
+    border-radius: 7px;
+    border: solid #FFF 1px;
+    box-shadow: 1px 2px 5px #a09999;
+    color: var(--cor-contraste-claro);
+    cursor: pointer;
+    text-align: center;
+    width: 4rem;
+}

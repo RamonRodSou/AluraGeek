@@ -1,0 +1,32 @@
+.perfil__botao{
+
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #2A7AE4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 20px;
+    width: 80px;
+}
+
+
+.perfil__botao--adm{
+
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #2A7AE4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 150px;
+}

@@ -5,6 +5,7 @@
       "email": "ramon@admin.com",
       "senha": "Ra123456",
       "data": "1993-07-02",
+      "tipo": 1320,
       "id": 1
     },
     {
@@ -12,6 +13,7 @@
       "email": "samara@gmail.com",
       "senha": "Sa123456",
       "data": "1992-07-18",
+      "tipo": 50,
       "id": 2
     },
     {
@@ -19,7 +21,24 @@
       "email": "eloisa@gmail.com",
       "senha": "El124578",
       "data": "2022-10-20",
+      "tipo": 50,
       "id": 3
+    },
+    {
+      "nome": "Antonio",
+      "email": "antonio@gmail.com",
+      "senha": "At147258",
+      "data": "2000-07-13",
+      "tipo": 50,
+      "id": 5
+    },
+    {
+      "nome": "felipe",
+      "email": "felipe@outlook.com",
+      "senha": "Ra123456",
+      "data": "1992-06-11",
+      "tipo": 50,
+      "id": 6
     }
   ],
   "produto": [
@@ -73,11 +92,18 @@
       "id": 7
     },
     {
-      "imageUrl": "C:\\fakepath\\4.png",
-      "produto": "Eloisa",
+      "imageUrl": "../../assets/img/diverso/2.png",
+      "produto": "Camisa Gamer",
       "valor": "30,00",
       "categoria": "3",
       "id": 8
+    },
+    {
+      "imageUrl": "C:\\fakepath\\5.png",
+      "produto": "xbox",
+      "valor": "900",
+      "categoria": "3",
+      "id": 9
     }
   ]
 }

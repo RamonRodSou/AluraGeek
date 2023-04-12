@@ -5,6 +5,7 @@
         <title>Alura Geek | Cadastrar Produto</title>
         <link rel="stylesheet" href="../../assets/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/geral/style.css">
+        <link rel="stylesheet" href="../../assets/css/geral/container-form.css">
         <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
@@ -34,19 +35,23 @@
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/cadastroProduto-categoriaTitulo.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/picture.css">
         <link rel="stylesheet" href="../../assets/css/cadastroProduto/inputs.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/perfil-botao.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/container-perfilNav.css">
+
+
         
     </head>
     <body>
         <header class="cabecalho container">
-                <div class="cabecalho__item">
-                    <div class="cabecalho__item--LogoPesquisa">
-                        <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
-                        <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
-                    </div>
-                    <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
+            <nav class="cabecalho__item">
+                <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                <div class="container__perfil--nav">
+                    <a href="./perfil-adm.html"><button class="perfil__botao">Perfil</button></a>
+                    <a href="./login.html"><button class="perfil__botao">Sair</button></a>
                 </div>
+            </nav>
         </header>
-        <main class="cadastroProduto__container"> 
+        <main class="container__form"> 
             <section class="cadastroProduto">
                 <h1 class="cadastroProduto__titulo">Cadastrar um produto</h1>
                 <form class="cadastroProduto__form" data-formProduto>

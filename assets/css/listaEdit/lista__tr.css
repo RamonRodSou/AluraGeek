@@ -1,4 +1,28 @@
 .lista__tr{
 
-    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #094db1;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding:0 1rem;
+
+}
+
+.lista__trC{
+    
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid rgba(12, 109, 154, 0.437);
+    box-shadow: var(--sombra);
+    border-radius: 1rem;
+
+    
+    color: #094db1;
+    font-weight: 400;
+    margin: 0.6rem 0;
+    padding: 1rem;
+    width: 100%;
 }

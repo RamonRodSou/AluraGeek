@@ -8,7 +8,7 @@ const listaClientes = () =>  {
     })
 }
 
-const criaCliente = (nome, email, senha, data) => { 
+const criaCliente = (nome, email, senha, data, tipo) => { 
     return fetch(`http://localhost:3000/profile`, {
         method: 'POST', 
         headers: {
@@ -18,7 +18,8 @@ const criaCliente = (nome, email, senha, data) => {
             nome: nome,
             email: email,
             senha: senha,
-            data: data
+            data: data,
+            tipo:tipo
         })
     })
     .then( resposta => {
@@ -51,7 +52,7 @@ const detalhaCliente = (id) => {
     })
 }
 
-const atualizaCliente = (id, nome, email, senha, data) => {
+const atualizaCliente = (id, nome, email, senha, data, tipo) => {
     return fetch(`http://localhost:3000/profile/${id}`, {
         method: 'PUT',
         headers: { 
@@ -61,7 +62,9 @@ const atualizaCliente = (id, nome, email, senha, data) => {
             nome: nome, 
             email: email,
             senha: senha,
-            data: data
+            data: data,
+            tipo:tipo
+
         })
     })
     .then( resposta => {

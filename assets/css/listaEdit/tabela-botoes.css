@@ -1,0 +1,5 @@
+.tabela__botoes {
+
+    display: flex;
+    gap: 2rem;
+}

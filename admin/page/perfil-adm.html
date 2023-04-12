@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../../assets/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/geral/style.css">
         <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../../assets/css/geral/titulo.css">
         <link rel="stylesheet" href="../../assets/css/geral/container-form.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
@@ -18,40 +19,27 @@
         <link rel="stylesheet" href="../../assets/css/banner/banner-intro.css">
         <link rel="stylesheet" href="../../assets/css/banner/banner-promocao.css">
         <link rel="stylesheet" href="../../assets/css/banner/banner-botao.css">
-        <link rel="stylesheet" href="../../assets/css/login/container-login.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-titulo.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-inputContainer.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-email.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-senha.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-entrar.css">
-        <link rel="stylesheet" href="../../assets/css/login/login-botao.css">
-        <link rel="stylesheet" href="../../assets/css/componentes/inputs.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/container-perfil.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/perfil-botao.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/container-perfilNav.css">
+
 
     </head> 
     <body>
         <header class="cabecalho container">
             <nav class="cabecalho__item">
                 <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
-                <a href="./cadastro.html"><button class="cabecalho__botao">Cadastrar</button></a>
+                <a href="./login.html"><button class="perfil__botao">Sair</button></a>
             </nav>
         </header>
         <main class="container__form">
-            <h1 class="login__titulo">Iniciar Sessão</h1>
-            <fieldset class="login__entrar">
-                <div class="input-container input-container__invalido">
-                    <input name="email" id="email" class="input login__email" type="email" data-email placeholder="Email" data-tipo="loginEmail" required>
-                    <label class="input-label" for="email">Email</label>
-                    <span class="input-mensagem-erro">Este campo não está válido</span>
-                </div>
-                <div class="input-container">
-                    <input name="senha" id="senha" class="input login__senha" type="password" data-senha placeholder="Senha" data-tipo="loginSenha" required>
-                    <label class="input-label" for="senha">Senha</label>
-                    <span class="input-mensagem-erro">Este campo não está válido</span>
-                </div>
-            </fieldset>
-            <button id="btn-login" class="login__botao" data-login>Entrar</button>
-
+            <h1 class="titulo">Página do Administrador</h1>
+            <nav class="container__perfil">
+                <a href="./lista_produto.html"><button class="perfil__botao--adm">Produtos</button></a>
+                <a href="./lista_cliente.html"><button class="perfil__botao--adm">Clientes</button></a>
+            </nav>
         </main>
+
         <script type="module" src="../validacoes/app.js"></script>
         <script type="module" src="../../admin/validacoes/login.js"></script>
     </body>

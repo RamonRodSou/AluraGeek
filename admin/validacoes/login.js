@@ -1,11 +1,23 @@
-const emailLogin = document.querySelector('[data-email]');
-const passwordLogin = document.querySelector('[data-senha]');
-const login = document.querySelector('[data-login]');
+const login = document.querySelector('[data-login]')
+  login.addEventListener('click', () => {
+    const email = document.querySelector('[data-email]').value
+    const senha = document.querySelector('[data-senha]').value
+    fetch('../db.json').then((response) => {
+      response.json().then((db) => {
+        const usuarioCargo = db.profile.find(usuario => usuario.email === email && usuario.senha === senha && usuario.tipo === 1320);
+        const usuarioEncontrado = db.profile.find(usuario => usuario.email === email && usuario.senha === senha);
+      
+      if (usuarioCargo) {
 
-login.addEventListener('click', (event) => {
-  event.preventDefault();
+        window.location.href = '../page/perfil-adm.html'
+        }else if(usuarioEncontrado) {
 
-  if (emailLogin.value === 'ramon@admin.com' && passwordLogin.value === 'Ra123456') {
-    window.location.href = '../page/cadastro_produto.html'
-  }
-})
+          window.location.href = '../page/home.html'
+        }else{
+
+          alert('Email ou Senha incorreto! Por favor coloque um login valido')
+        } 
+      
+    })
+  })
+});

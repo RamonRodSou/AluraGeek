@@ -26,7 +26,7 @@ import { clienteService } from '../service/cliente-service.js'
     evento.preventDefault()
     try {
       await clienteService.atualizaCliente(id, inputNome.value, inputEmail.value)
-      window.location.href = "../page/edicao_concluida.html"
+      window.location.href = "../page/edicao-concluida.html"
     }
     catch(erro){
       console.log(erro)

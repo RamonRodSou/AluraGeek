@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../../assets/css/reset/reset.css">
         <link rel="stylesheet" href="../../assets/css/geral/style.css">
         <link rel="stylesheet" href="../../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../../assets/css/geral/container-form.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-cliente.css">
         <link rel="stylesheet" href="../../assets/css/cabecalho/cabecalho-item.css">
@@ -48,40 +49,45 @@
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-descricao.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-valor.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-diverso.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/perfil-botao.css">
+        <link rel="stylesheet" href="../../assets/css/perfil/container-perfilNav.css">
+
     </head>
     <body>
         <header class="cabecalho container">
-                <div class="cabecalho__item">
-                    <div class="cabecalho__item--LogoPesquisa">
-                        <img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
-                        <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
-                    </div>
+            <nav class="cabecalho__item">
+                <a href="./home.html"><img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                <div class="container__perfil--nav">
+                    <a href="./perfil-adm.html"><button class="perfil__botao">Perfil</button></a>
+                    <a href="./login.html"><button class="perfil__botao">Sair</button></a>
                 </div>
-        </header>
-        <section class="container__produto container">
-            <div class="produto">
-                <h1 class="produto__titulo">Star Wars</h1>
-                <a class="produto__verTudo">Ver tudo </a>
-            </div>
-            <div class="console__lista" data-produto data-edit>
-            </div>
-        </section>
-        <section class="container__console container">
-            <div class="console">
-                <h1 class="console__titulo">Consoles</h1>
-                <a class="console__verTudo">Ver tudo</a>
-            </div>
-            <div class="console__lista" data-console data-edit>
-            </div>
-        </section>
-        <section class="container__diverso container">
-            <div class="diverso">
-                <h1 class="diverso__titulo">Diversos</h1>
-                <a class="diverso__verTudo">Ver tudo</a>
-            </div>
-            <div class="diverso__lista" data-diverso data-edit>
-            </div>
-        </section>
+                
+            </nav>
+        </header >
+        <main class="container">
+            <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
+            <section class="container__produto">
+                <div class="produto">
+                    <h1 class="produto__titulo">Star Wars</h1>
+                </div>
+                <div class="console__lista" data-produto data-edit>
+                </div>
+            </section>
+            <section class="container__console">
+                <div class="console">
+                    <h1 class="console__titulo">Consoles</h1>
+                </div>
+                <div class="console__lista" data-console data-edit>
+                </div>
+            </section>
+            <section class="container__diverso">
+                <div class="diverso">
+                    <h1 class="diverso__titulo">Diversos</h1>
+                </div>
+                <div class="diverso__lista" data-diverso data-edit>
+                </div>
+            </section>
+        </main>
         <script type="module"src="../controller/listaProduto-controller.js"></script> 
 
 

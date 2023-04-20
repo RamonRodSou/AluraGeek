@@ -1,0 +1,19 @@
+.form__texto {
+
+    box-sizing: border-box;
+    border: 1px solid var(--cor-secundaria);
+    padding: 0.5rem;
+    height: 6rem;
+    resize: none;
+}
+
+.form__texto::placeholder {
+
+    font-size: var(--fonte-tamanho-input-label);
+    color: var(--azul);
+    transition: all .25s;
+}
+
+.form__texto:focus {
+    outline: none;
+}

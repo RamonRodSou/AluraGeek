@@ -20,9 +20,6 @@
         <link rel="stylesheet" href="../../assets/css/banner/banner-botao.css">
         <link rel="stylesheet" href="../../assets/css/produto/container-produto.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto.css">
-        <link rel="stylesheet" href="../../assets/css/produto/produto-titulo.css">
-        <link rel="stylesheet" href="../../assets/css/produto/produto-verTudo.css">
-        <link rel="stylesheet" href="../../assets/css/produto/produto-lista.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-item.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-img.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-descricao.css">
@@ -30,9 +27,6 @@
         <link rel="stylesheet" href="../../assets/css/produto/produto-produto.css">
         <link rel="stylesheet" href="../../assets/css/console/container-console.css">
         <link rel="stylesheet" href="../../assets/css/console/console.css">
-        <link rel="stylesheet" href="../../assets/css/console/console-titulo.css">
-        <link rel="stylesheet" href="../../assets/css/console/console-verTudo.css">
-        <link rel="stylesheet" href="../../assets/css/console/console-lista.css">
         <link rel="stylesheet" href="../../assets/css/console/console-item.css">
         <link rel="stylesheet" href="../../assets/css/console/console-img.css">
         <link rel="stylesheet" href="../../assets/css/console/console-descricao.css">
@@ -40,24 +34,42 @@
         <link rel="stylesheet" href="../../assets/css/console/console-console.css">
         <link rel="stylesheet" href="../../assets/css/diverso/container-diverso.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso.css">
-        <link rel="stylesheet" href="../../assets/css/diverso/diverso-titulo.css">
-        <link rel="stylesheet" href="../../assets/css/diverso/diverso-verTudo.css">
-        <link rel="stylesheet" href="../../assets/css/diverso/diverso-lista.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-item.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-img.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-descricao.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-valor.css">
         <link rel="stylesheet" href="../../assets/css/diverso/diverso-diverso.css">
+        <link rel="stylesheet" href="../../assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="../../assets/css/componentes/inputs.css">
+        <link rel="stylesheet" href="../../assets/css/componentes/botao.css">
+        <link rel="stylesheet" href="../../assets/css/rodape/container-rodape.css">
+        <link rel="stylesheet" href="../../assets/css/rodape/rodape-link.css">
+        <link rel="stylesheet" href="../../assets/css/rodape/rodape-item.css">
+        <link rel="stylesheet" href="../../assets/css/rodape/rodape-redes.css">
+        <link rel="stylesheet" href="../../assets/css/rodape/contato-tem.css">
+        <link rel="stylesheet" href="../../assets/css/form/container-form.css">
+        <link rel="stylesheet" href="../../assets/css/form/form-titulo.css">
+        <link rel="stylesheet" href="../../assets/css/form/form-nome.css">
+        <link rel="stylesheet" href="../../assets/css/form/form-texto.css">
+        <link rel="stylesheet" href="../../assets/css/form/form-botao.css">
+        <link rel="stylesheet" href="../../assets/css/footer/container-footer.css">
+        <link rel="stylesheet" href="../../assets/css/footer/footer-nome.css">
+
     </head>
     <body>
         <header class="cabecalho container">
             <div class="cabecalho__item">
                 <div class="cabecalho__item--LogoPesquisa">
                     <img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
-                    <input name="search" id="search" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-tipo="search">
+                    <div class="box-search">
+                        <input class="cabecalho__search" type="text" placeholder="Procure um produto" id="search">
+                        <img class="lupa__search"src="../../assets/img/cabecalho/search.svg" alt="lupa pesquisar">
+                    </div>
+
+                    <!-- <input name="search" id="search-box" class="cabecalho__pesquisa--input" type="search" placeholder="O que deseja encontrar" data-search data-tipo="search"> -->
                 </div>
                 <nav class="cabecalho__cliente">
-                    <a href="./cadastro.html"><button class="cabecalho__botao">Cadastro</button></a>  
+                    <a href="./cliente/cadastro.html"><button class="cabecalho__botao">Cadastro</button></a>  
                     <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
                 </nav>
             </div>
@@ -71,68 +83,82 @@
                 </span>
             </div>
         </main>
+        <section class="lista__pesquisa ">
+            <div class="lista" data-pesquisa>
+
+            </div>
+        </section>
         <section class="container__produto container" data-secProduto>
             <div class="produto">
-                <h1 class="produto__titulo">Star Wars</h1>
-                <a class="produto__verTudo">Ver tudo </a>
+                <h1 class="titulo">Star Wars</h1>
+                <a class="verTudo">Ver tudo </a>
             </div>
-            <div class="produto__lista" data-produto>
+            <div class="lista" data-produto data-tabelaProduto>
 
             </div>
         </section>
         <section class="container__console container" data-secProduto>
             <div class="console">
-                <h1 class="console__titulo">Consoles</h1>
-                <a class="console__verTudo">Ver tudo</a>
+                <h1 class="titulo">Consoles</h1>
+                <a class="verTudo">Ver tudo</a>
             </div>
-            <div class="console__lista" data-console>
+            <div class="lista" data-console data-tabelaProduto>
 
-                <!-- <article class="console__item">
-                    <img src="../../assets/img/console/1.png" alt="console" class="console__img">
-                    <p class="console__descricao">console  XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article>
-                <article class="console__item">
-                    <img src="../../assets/img/console/2.png" alt="console" class="console__img">
-                    <p class="console__descricao">console  XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article>
-                <article class="console__item">
-                    <img src="../../assets/img/console/3.png" alt="console" class="console__img">
-                    <p class="console__descricao">console XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article>
-                <article class="console__item">
-                    <img src="../../assets/img/console/4.png" alt="console" class="console__img">
-                    <p class="console__descricao">console XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article>
-                <article class="console__item">
-                    <img src="../../assets/img/console/5.png" alt="console" class="console__img">
-                    <p class="console__descricao">console XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article>
-                <article class="console__item">
-                    <img src="../../assets/img/console/6.png" alt="console" class="console__img">
-                    <p class="console__descricao">console XYZ</p>
-                    <p class="console__valor">R$: 60,00</p>
-                    <a href="" class="console__produto">Ver produto</a>
-                </article> -->
             </div>
         </section>
         <section class="container__diverso container" data-secProduto>
             <div class="diverso">
-                <h1 class="diverso__titulo">Diversos</h1>
-                <a class="diverso__verTudo">Ver tudo</a>
+                <h1 class="titulo">Diversos</h1>
+                <a class="verTudo">Ver tudo</a>
             </div>
-            <div class="diverso__lista" data-diverso>
+            <div class="lista" data-diverso data-tabelaProduto>
+
             </div>
         </section>
-        <script type="module" src="../controller/listaProduto-controller.js"></script>
+        <section class="container__rodape">
+            <div class="container__rodape--div">
+                <div class="rodape__contato">
+                    <img src="../../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
+                    <nav class="rodape__menu">
+                        <ul class="contato__redes">
+                            <li class="contato__item"><a href="https://github.com/RamonRodSou"><img src="../../assets/img/redes/icon_github.png" class="contato__github"
+                                    alt="Logo e Link do Github"></a></li>
+                            <li class="contato__item"><a href="https://www.linkedin.com/in/ramonrodsouza/"><img src="../../assets/img/redes/icon_linkedin.png" class="contato__linkdin"
+                                    alt="Logo e Link do Linkdin"></a></li>
+                            <li class="contato__item"><a href="https://api.whatsapp.com/send/?phone=5521972923210&text&app_absent=0"><img
+                                    src="../../assets/img/redes/icon_whatsapp.png" class="contato__whatsapp" alt="Logo e Link do Whatsapp"></a></li>
+                        </ul>
+                  </nav>
+                </div>
+                <div class="rodape__link">
+                    <a href="" class="rodape__item">Quem somos nós</a>
+                    <a href="" class="rodape__item">Política de privacidade</a>
+                    <a href="" class="rodape__item">Programa fidelidade</a>
+                    <a href="" class="rodape__item">Nossas lojas</a>
+                    <a href="" class="rodape__item">Quero ser franqueado</a>
+                    <a href="" class="rodape__item">Anuncie aqui</a>
+                </div>
+                <form  class="container__form">
+                    <p class="form__titulo">Fale conosco</p>
+                    <div class="input-container input-container__invalido" >
+                        <input name="nome" id="nome" class="input form__nome" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>
+                        <label class="input-label" for="nome">Nome</label>
+                        <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                    </div>
+                    <div class="input-container input-container__invalido" >
+                        <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                        <textarea name="menssage"  class=" form__texto"  cols="20" rows="10"
+                        placeholder="Escreva sua mensagem" required></textarea>
+                    </div>
+                    <button class="form__botao">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </section>
+     <footer class="container__footer">
+          <p class="footer__nome">Desenvolvedor Ramon Rodrigues 2023</p>
+      </footer>
+        <script type="module" src="../controller/produto/listaProduto-controller.js"></script>
+
     </body>
 </html>

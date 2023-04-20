@@ -1,0 +1,54 @@
+.botao__produto {
+    position: relative;
+    display: block;
+  }
+
+.botao__produto--config{
+
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30px;
+    padding: 2px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 2px 1px;
+    background-color: rgba(249, 249, 249, 0.411);
+    border-radius: 5px;
+    display: block;
+}
+.botao__produto--edit{
+
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 30px;
+    padding: 2px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 2px 1px;
+    background-color: rgba(249, 249, 249, 0.411);
+    border-radius: 5px;
+    display: block;
+
+}
+
+.botao__produto--config:hover{
+
+    background-color: rgb(42, 50, 165);
+}
+
+.botao__produto--edit:hover {
+
+    background-color: brown;
+}
+
+.botao__produto--config:active{
+
+    background-color: rgba(42, 50, 165, 0.465);
+}
+
+.botao__produto--edit:active {
+
+    background-color: rgba(216, 91, 91, 0.533);
+}

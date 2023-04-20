@@ -1,0 +1,12 @@
+.container__rodape {
+    background-color: #EAF2FD;
+}
+.container__rodape--div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}

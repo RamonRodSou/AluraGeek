@@ -4,3 +4,38 @@
     align-items: center;
     gap:2rem;
 }
+
+.box-search {
+    display: flex;
+    align-items: center;
+    cursor: text;
+}
+
+.cabecalho__search {
+    padding: 10px !important;
+    padding-left: 25px !important;
+    width: 390px;
+    padding: 8px 16px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+}
+
+.cabecalho__search:focus-visible {
+    outline: none;
+    border: 1px solid var(--color-blue);
+}
+
+.lupa__search {
+    position: relative;
+    right: 35px;
+    cursor: pointer;
+}
+
+input.cabecalho__search::placeholder {
+    position: relative;
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}

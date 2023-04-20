@@ -38,7 +38,7 @@ const mensagensDeErro = {
     img: {
         valueMissing: 'Você precisa adicionar uma imagem.'
     },
-    valor: {
+    preco: {
         valueMissing: 'O campo de preço não pode estar vazio.'
     },
     loginEmail: {

@@ -1,0 +1,6 @@
+.rodape__link {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

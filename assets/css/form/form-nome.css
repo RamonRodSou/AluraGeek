@@ -1,0 +1,6 @@
+.form__nome {
+
+    box-sizing: border-box;
+    border: 1px solid var(--cor-secundaria);
+    padding: 0.5rem;
+}

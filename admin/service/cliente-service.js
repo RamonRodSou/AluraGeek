@@ -64,7 +64,6 @@ const atualizaCliente = (id, nome, email, senha, data, tipo) => {
             senha: senha,
             data: data,
             tipo:tipo
-
         })
     })
     .then( resposta => {

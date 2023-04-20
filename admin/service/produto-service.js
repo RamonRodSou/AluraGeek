@@ -8,7 +8,7 @@ const listaProduto = () =>  {
     })
 }
 
-const criaProduto = (imageUrl, produto, valor, categoria) => { 
+const criaProduto = (imageUrl, nome, valor, categoria) => { 
     return fetch(`http://localhost:3000/produto`, {
         method: 'POST', 
         headers: {
@@ -16,7 +16,7 @@ const criaProduto = (imageUrl, produto, valor, categoria) => {
         },
         body: JSON.stringify({
             imageUrl: imageUrl,
-            produto: produto,
+            nome: nome,
             valor: valor,
             categoria:categoria
         })
@@ -29,8 +29,8 @@ const criaProduto = (imageUrl, produto, valor, categoria) => {
     })
 }
 
-const removeProduto = (categoria,id) => { 
-    return fetch(`http://localhost:3000/produto/${categoria}/${id}`, {
+const removeProduto = (id) => { 
+    return fetch(`http://localhost:3000/produto/${id}`, {
         method: 'DELETE'
     })
     .then( resposta => { 
@@ -40,8 +40,8 @@ const removeProduto = (categoria,id) => {
     })
 }
  
-const detalhaProduto = (categoria,id) => { 
-    return fetch(`http://localhost:3000/produto/${categoria}/${id}`)
+const detalhaProduto = (id) => {  
+    return fetch(`http://localhost:3000/produto/${id}`)
     .then(resposta => { 
         if(resposta.ok){
             return resposta.json()
@@ -51,17 +51,17 @@ const detalhaProduto = (categoria,id) => {
     })
 }
 
-const atualizaProduto = (imageUrl, produto, valor, categoria, id) => {
-    return fetch(`http://localhost:3000/produto/${categoria}/${id}`, {
+const atualizaProduto = (imageUrl, nome, valor, categoria, id) => {
+    return fetch(`http://localhost:3000/produto/${id}/${categoria}`, {
         method: 'PUT',
         headers: { 
             'Content-type' : 'application/json'
         },
         body: JSON.stringify({
             imageUrl: imageUrl,
-            produto: produto, 
+            nome: nome, 
             valor: valor,
-            categoria:categoria
+            categoria: categoria
         })
     })
     .then( resposta => {
@@ -71,6 +71,8 @@ const atualizaProduto = (imageUrl, produto, valor, categoria, id) => {
         throw new Error('Não foi possível detalhar um produto')
     })
 }
+
+
 
 export const produtoService = { 
     listaProduto,

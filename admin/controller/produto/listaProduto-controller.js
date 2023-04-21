@@ -92,6 +92,7 @@ botaoPesquisa.addEventListener('click', async (evento) => {
       const inputPesquisa = document.querySelector('#search').value
 
       const item = evento.nome
+
       if(inputPesquisa == item){        
         window.console.log(item);
       }

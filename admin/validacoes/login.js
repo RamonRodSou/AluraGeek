@@ -12,7 +12,7 @@ const login = document.querySelector('[data-login]')
         window.location.href = '../page/perfil-adm.html'
         }else if(usuarioEncontrado) {
 
-          window.location.href = '../page/home.html'
+          window.location.href = '../page/index.html'
         }else{
 
           alert('Email ou Senha incorreto! Por favor coloque um login valido')

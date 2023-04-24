@@ -7,7 +7,9 @@
 .input{
     box-sizing: border-box;
     border: 1px solid var(--cor-secundaria);
-    padding: 0.5rem;    
+    padding: 0.5rem;   
+    text-transform: capitalize
+ 
 }
 
 .input__data, .input__cpf{

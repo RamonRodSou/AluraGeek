@@ -1,0 +1,33 @@
+@media screen and (max-width:800px) {
+
+
+    .mobile__item {
+
+        padding: 1rem;
+        transition: 1s;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(36, 74, 111, 0.436);
+
+        box-shadow: rgba(0, 0, 0, 0.288) 5px 5px 5px;
+        margin: 3px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: var(--azulclaro);
+    }
+
+    .mobile__item:first-child {
+
+        border-top: 1px solid rgba(36, 74, 111, 0.436);
+    }
+
+    .mobile__item:hover {
+
+        background: #1c3d4a;
+    }
+
+    .mobile__item:active {
+
+        background: #4595b4;
+        
+    }
+}

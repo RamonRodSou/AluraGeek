@@ -1,7 +1,9 @@
+
 .botao__produto {
     position: relative;
-    display: block;
-  }
+    display: flex;
+    width: 100%;
+}
 
 .botao__produto--config{
 

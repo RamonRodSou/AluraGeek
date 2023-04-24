@@ -6,7 +6,7 @@ const formulario = document.querySelector('[data-formProduto]')
   evento.preventDefault()
   try {
     const img = evento.target.querySelector('[data-img]').value
-    const nome = evento.target.querySelector('[data-produto]').value
+    const nome = evento.target.querySelector('[data-nome]').value
     const valor = evento.target.querySelector('[data-valor]').value
     const categoria = document.querySelector('input[name="categoria"]:checked').value;
 

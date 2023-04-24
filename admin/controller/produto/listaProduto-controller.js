@@ -15,7 +15,7 @@ const criaNovaLinha = (imageUrl, nome, valor, id, categoria) =>  {
                   <img src="../../../assets/img/lista/config.png" alt="Botao Editar" class="botao__produto--config" data-editar> 
               </a>
           </div>
-          <img src="${imageUrl}" data-produtoImg alt="Produto StarWars" class="produto__img">
+          <img src="${imageUrl}" data-produtoImg alt="Produto ${nome}" class="produto__img">
           <p class="produto__descricao" data-produtoNome>${nome}</p>
           <p class="produto__valor" data-produtoValor>R$:${valor}</p>
           <a href="" class="produto__produto">Ver produto</a>
@@ -80,25 +80,3 @@ const render = async () =>  {
 }
 render()
 
-const botaoPesquisa = document.querySelector('.lupa__search')
-const pesquisa = document.querySelector ('[data-pesquisa]')
-
-
-botaoPesquisa.addEventListener('click', async (evento) => {
-    evento.preventDefault()
-
-    listaProdutos.forEach (evento => {
-
-      const inputPesquisa = document.querySelector('#search').value
-
-      const item = evento.nome
-
-      if(inputPesquisa == item){        
-        window.console.log(item);
-      }
-
-    })
-    pesquisa.style.display = 'flex';
-    produto.style.display = 'none';
-    
-})

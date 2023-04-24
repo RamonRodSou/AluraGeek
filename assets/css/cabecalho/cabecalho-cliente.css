@@ -4,3 +4,10 @@
     gap:0.5rem;
     margin:0 1rem;
 }
+
+@media screen and (max-width:900px) {
+    .cabecalho__cliente {
+        display: none;
+    }
+
+}

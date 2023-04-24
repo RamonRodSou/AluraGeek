@@ -7,3 +7,10 @@
     line-height: 19px;
     text-decoration: none;
 }
+
+.item:hover .produto__produto  {
+
+    font-size: 17px;
+    line-height: 17px;
+    color: #006eff
+}

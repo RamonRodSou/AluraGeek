@@ -1,0 +1,32 @@
+#mobile__menu{
+
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    
+    #mobile__menu {
+
+        display:flex;
+        text-align: center;
+        }
+
+    #mobile__menu.active #mobile__btn {
+
+        transform: rotate(180deg);
+        }
+
+    #mobile__menu.active #mobile__btn::before {
+
+        transform: rotate(20deg);
+        
+        }
+
+    
+    #mobile__menu.active .mobile__lista {
+
+        display: block;   
+        transition: 500ms;  
+        color: black;
+        } 
+}

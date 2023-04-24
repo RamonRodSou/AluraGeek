@@ -1,0 +1,16 @@
+.lista {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin:1rem 0;
+}
+
+@media screen and (max-width:500px) {
+
+    .lista {
+
+        justify-content: center;
+    }
+}

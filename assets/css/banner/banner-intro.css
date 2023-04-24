@@ -3,12 +3,18 @@
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
-    font-size: 52px;
-    line-height: 61px;
+    font-size: 3.5rem;
     text-shadow: 2px 3px #3d3c3c;
     
     margin: 1rem 0;
 
-    height: 61px;
-    width: 751px;
+    /* height: 61px;
+    width: 751px; */
+}
+
+@media screen and (max-width:900px) {
+
+    .banner__intro {
+        font-size: 2.5rem;
+    }
 }

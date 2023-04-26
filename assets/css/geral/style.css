@@ -18,22 +18,25 @@ button:active {
     background-color: #0461db;
 }
 
-.lista__pesquisa {
+.fantasma {
 
     display: none;
     flex-direction: column;
 }
+.tseash {
+    display: none;
+}
 
-.lista__pesquisa--div {
+.lista__fantasma--div {
 
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap:1rem;
     margin:1rem 0;
 }
 
-.titulo {
+.titulo_section {
 
     font-style: normal;
     font-weight: 700;

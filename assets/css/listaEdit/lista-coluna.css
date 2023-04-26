@@ -1,0 +1,9 @@
+@media screen and (max-width:610px) {
+
+    .lista__coluna  {
+        display: none;
+    }
+    .lista__coluna:last-child  {
+        display:block;
+    }
+}

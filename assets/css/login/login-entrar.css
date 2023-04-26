@@ -5,3 +5,13 @@
     gap:1rem;
     width: 50%;
 }
+
+
+@media screen and (max-width:450px) {
+
+    .login__entrar {
+
+        width: 100%;
+    }
+
+}

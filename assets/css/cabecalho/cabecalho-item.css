@@ -4,5 +4,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 0.5;
     padding: 1rem 0;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:380px) {
+
+    .cabecalho__item {
+        justify-content: center;
+
+        gap: 0.5rem;
+    }
 }

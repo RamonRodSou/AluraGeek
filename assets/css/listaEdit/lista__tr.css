@@ -14,11 +14,12 @@
     
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     border: 1px solid rgba(12, 109, 154, 0.437);
     box-shadow: var(--sombra);
     border-radius: 1rem;
-
+    gap: 0.5rem;
     
     color: #094db1;
     font-weight: 400;

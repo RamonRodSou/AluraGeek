@@ -3,3 +3,16 @@
     display: flex;
     gap: 2rem;
 }
+
+.botao-simples {
+    color: rgba(212, 37, 37, 0.63);
+}
+
+
+@media screen and (max-width:330px) {
+
+    .tabela__botoes {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

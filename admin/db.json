@@ -81,20 +81,6 @@
       "valor": "900",
       "categoria": "3",
       "id": 9
-    },
-    {
-      "imageUrl": "https://th.bing.com/th/id/OIP.bZLIyS8A_6fIi1cjY-IeJwHaFj?pid=ImgDet&rs=1",
-      "nome": "Filme",
-      "valor": "5545",
-      "categoria": "1",
-      "id": 10
-    },
-    {
-      "imageUrl": "https://th.bing.com/th/id/OIP.bZLIyS8A_6fIi1cjY-IeJwHaFj?pid=ImgDet&rs=1",
-      "nome": "TEstdsa",
-      "valor": "100000",
-      "categoria": "3",
-      "id": 11
     }
   ]
 }

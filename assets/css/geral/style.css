@@ -23,9 +23,9 @@ button:active {
     display: none;
     flex-direction: column;
 }
-.tseash {
+/* .tseash, .verProduto {
     display: none;
-}
+} */
 
 .lista__fantasma--div {
 

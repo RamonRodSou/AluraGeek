@@ -8,14 +8,14 @@ import { produtoService } from '../../service/produto-service.js'
 
   const inputImg = document.querySelector('[data-img]')
   const inputNome = document.querySelector('[data-produto]')
-  const inputEmail = document.querySelector('[data-valor]')
   const inputValor = document.querySelector('[data-valor]')
+  const inputDescricao = document.querySelector('[data-descricao]')
 
   try { 
     inputImg.value = dados.imageUrl
     inputNome.value = dados.nome
-    inputEmail.value = dados.email
     inputValor.value = dados.valor
+    inputDescricao.value = dados.inputDescricao
   }
   catch(erro){
     console.log(erro)
@@ -28,7 +28,7 @@ import { produtoService } from '../../service/produto-service.js'
   formulario.addEventListener('submit', async (evento)=> { 
     evento.preventDefault()
     try {
-      await produtoService.atualizaProduto(inputImg.value, inputNome.value,inputValor.value, dados.categoria ,id)
+      await produtoService.atualizaProduto(inputImg.value, inputNome.value,inputValor.value, inputDescricao.value, dados.categoria ,id)
 
       window.location.href = "./edicaoProduto-concluida.html"
     }

@@ -24,12 +24,8 @@
 .input-container--invalido .input-mensagem-erro {
     color:rgb(223, 33, 8);
     display: block;
-
 }
 
-.input-label {
-
+.input-label, .textarea-label {
     color: var(--cor-primaria);
-
 }
-

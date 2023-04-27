@@ -8,7 +8,7 @@ const listaProduto = () =>  {
     })
 }
 
-const criaProduto = (imageUrl, nome, valor, categoria) => { 
+const criaProduto = (imageUrl, nome, valor, descricao, categoria) => { 
     return fetch(`http://localhost:3000/produto`, {
         method: 'POST', 
         headers: {
@@ -18,6 +18,7 @@ const criaProduto = (imageUrl, nome, valor, categoria) => {
             imageUrl: imageUrl,
             nome: nome,
             valor: valor,
+            descricao: descricao,
             categoria:categoria
         })
     })
@@ -51,7 +52,7 @@ const detalhaProduto = (id) => {
     })
 }
 
-const atualizaProduto = (imageUrl, nome, valor, categoria, id) => {
+const atualizaProduto = (imageUrl, nome, valor, descricao, categoria, id) => {
     return fetch(`http://localhost:3000/produto/${id}/${categoria}`, {
         method: 'PUT',
         headers: { 
@@ -61,6 +62,7 @@ const atualizaProduto = (imageUrl, nome, valor, categoria, id) => {
             imageUrl: imageUrl,
             nome: nome, 
             valor: valor,
+            descricao: descricao,
             categoria: categoria
         })
     })

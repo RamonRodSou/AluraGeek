@@ -84,11 +84,15 @@ const pesquisa = document.querySelector ('[data-pesquisa]')
 const pesquisaD = document.querySelector ('[data-pesquisaD]')
 const tsearch = document.querySelector ('.tsearch')
 
+const verProdutos = document.querySelector ('[data-verProduto]')
+const verProdutosD = document.querySelector ('[data-verProdutoD]')
+const verProduto = document.querySelectorAll ('.produto__produto')
+
+
 
 let umaVez = false
 botaoPesquisa.addEventListener('click', async (evento) => {
   evento.preventDefault()
-
     listaProdutos.forEach (evento => {
       const criarElemento = criaNovaLinha(evento.imageUrl, evento.nome,evento.valor, evento.id, evento.categoria)
       
@@ -98,7 +102,6 @@ botaoPesquisa.addEventListener('click', async (evento) => {
       if(inputPesquisa == item && !umaVez){        
         pesquisaD.appendChild(criarElemento)
         pesquisa.style.display = 'flex'
-        // tsearch.style.display = 'block'
         containers.forEach(container => {
             container.style.display = "none"
           })
@@ -107,19 +110,30 @@ botaoPesquisa.addEventListener('click', async (evento) => {
     umaVez = true  
 })
 
-// const verProduto = document.querySelectorAll('.produto__produto')
+const item2 = document.querySelector('.item')
+const img = document.querySelector('.produto__img')
 
-// for (let i = 0; i < verProduto.length; i++) {
-//   verProduto[i].addEventListener("click", (evento) => {
-//     evento.preventDefault()
-//     const produto = evento.target.closest('[data-id]')
-//     let id = produto.dataset.id
-//     const detalhaProduto2 = produtoService.detalhaProduto(id)
+for (let i = 0; i < verProduto.length; i++) {
+  verProduto[i].addEventListener("click", (evento) => {
+    evento.preventDefault()
+    item2.style.backgroundColor = "yellow";  
 
-//       window.console.log(detalhaProduto2)
-//         descricao.style.display = 'flex'
-//         containers.forEach(container => {
-//           container.style.display = "none"
-//         })
-//   });
-// }
+
+    const produto = evento.target.closest('[data-id]')
+    let id = produto.dataset.id
+    listaProdutos.map (evento => {
+      const criarElemento = criaNovaLinha(evento.imageUrl, evento.nome, evento.valor, evento.id, evento.categoria)      
+      const item = evento.id
+      if(id == item){
+        
+          verProdutosD.appendChild(criarElemento)
+          verProdutos.style.display = 'flex'
+
+          containers.forEach(container => {
+            container.style.display = "none"
+        })
+
+      }
+      })
+  });
+}

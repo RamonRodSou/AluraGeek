@@ -1,14 +1,13 @@
 import { produtoService } from '../../service/produto-service.js'
+import { ab, ac, bc, botaoPesquisa, console, containers, diverso, pesquisa, pesquisaD, produto, todosConsoles, todosConsolesBtn, todosDivesos, todosStarWars, verProdutos, verProdutosD } from './Dom.js'
+import { DeletaProduto } from './deletaProduto-controller.js'
+import Pesquisa  from './pesquisaProduto-controller.js'
+import VerProdutoDescricao from './verProduto-controller.js'
+import verTodosProdutosSection from './verTudo-controller.js'
+  
 
-const produto = document.querySelector ('[data-produto]') 
-const console = document.querySelector ('[data-console]') 
-const diverso = document.querySelector ('[data-diverso]')
-const containers = document.querySelectorAll ('[data-secProduto]')
-const descricao = document.querySelector ('[data-descricao]')
 
-
-
-const criaNovaLinha = (imageUrl, nome, valor, id, categoria) =>  { 
+  const criaNovaLinha = (imageUrl, nome, valor, descricao, id, categoria) =>  { 
     const linhaNovoProduto = document.createElement('article')  
           linhaNovoProduto.classList.add('item')
           
@@ -21,37 +20,16 @@ const criaNovaLinha = (imageUrl, nome, valor, id, categoria) =>  {
               </a>
           </div>
           <img src="${imageUrl}" data-produtoImg alt="Produto ${nome}" class="produto__img">
-          <p class="produto__descricao" data-produtoNome>${nome}</p>
+          <p class="produto__nome" data-produtoNome>${nome}</p>
           <p class="produto__valor" data-produtoValor>R$:${valor}</p>
-          <a href="./index.html?id=${id}?categoria=${categoria}"  class="produto__produto" data-id=${id} >Ver produto</a>
+          <p class="produto__descricao-none" data-ProdutoDescricao>${descricao}</p>
+          <a href="./index.html?id=${id}?categoria=${categoria}"  class="produto__produto lista__verProduto" data-id=${id} >Ver produto</a>
                     `
     linhaNovoProduto.innerHTML = conteudo
     linhaNovoProduto.dataset.id = id
   
     return linhaNovoProduto
-}
-
-function deletaProduto(section) {
-    section.addEventListener('click', async (evento)=> {
-          let ehBotaoDeDeleta = evento.target.className === 'botao__produto--edit botao__produto--excluir'
-          if(ehBotaoDeDeleta ){
-              try {
-                  const linhaProduto = evento.target.closest('[data-id]')
-                  let id = linhaProduto.dataset.id
-                  await produtoService.removeProduto(id)
-              }
-              catch(erro){
-                  console.log(erro)
-                  window.location.href="../page/erro.html"
-              }
-          }
-    })
-    
-}
-
-deletaProduto(produto)
-deletaProduto(console)
-deletaProduto(diverso)
+  }
 
 const listaProdutos = await produtoService.listaProduto()
 
@@ -59,7 +37,7 @@ const render = async () =>  {
 
   try {
       listaProdutos.forEach(elemento => {
-        const criarElemento = criaNovaLinha(elemento.imageUrl, elemento.nome,elemento.valor, elemento.id, elemento.categoria)
+        const criarElemento = criaNovaLinha(elemento.imageUrl, elemento.nome,elemento.valor, elemento.descricao, elemento.id, elemento.categoria)
         if(elemento.categoria == "1"){
           produto.appendChild(criarElemento)
         }
@@ -69,8 +47,9 @@ const render = async () =>  {
         else {
           diverso.appendChild(criarElemento)
         }
-    })
 
+
+    })
   }
   catch(erro){
       console.log(erro)
@@ -79,61 +58,20 @@ const render = async () =>  {
 }
 render()
 
-const botaoPesquisa = document.querySelector('.lupa__search')
-const pesquisa = document.querySelector ('[data-pesquisa]')
-const pesquisaD = document.querySelector ('[data-pesquisaD]')
-const tsearch = document.querySelector ('.tsearch')
+  DeletaProduto(produto, produtoService)
+  DeletaProduto(console, produtoService)
+  DeletaProduto(diverso, produtoService)
 
-const verProdutos = document.querySelector ('[data-verProduto]')
-const verProdutosD = document.querySelector ('[data-verProdutoD]')
-const verProduto = document.querySelectorAll ('.produto__produto')
+  Pesquisa (listaProdutos,botaoPesquisa, pesquisaD, pesquisa, containers,criaNovaLinha)
 
+  VerProdutoDescricao(listaProdutos, verProdutosD, verProdutos, containers)
 
-
-let umaVez = false
-botaoPesquisa.addEventListener('click', async (evento) => {
-  evento.preventDefault()
-    listaProdutos.forEach (evento => {
-      const criarElemento = criaNovaLinha(evento.imageUrl, evento.nome,evento.valor, evento.id, evento.categoria)
-      
-      const inputPesquisa = document.querySelector('#search').value
-      const item = evento.nome
-
-      if(inputPesquisa == item && !umaVez){        
-        pesquisaD.appendChild(criarElemento)
-        pesquisa.style.display = 'flex'
-        containers.forEach(container => {
-            container.style.display = "none"
-          })
-      }
-    })
-    umaVez = true  
-})
-
-const item2 = document.querySelector('.item')
-const img = document.querySelector('.produto__img')
-
-for (let i = 0; i < verProduto.length; i++) {
-  verProduto[i].addEventListener("click", (evento) => {
-    evento.preventDefault()
-    item2.style.backgroundColor = "yellow";  
+  verTodosProdutosSection(todosStarWars,bc)
+  verTodosProdutosSection(todosDivesos,ab)  
+  verTodosProdutosSection(todosConsoles,ac)
+  verTodosProdutosSection(todosConsolesBtn,ac)
 
 
-    const produto = evento.target.closest('[data-id]')
-    let id = produto.dataset.id
-    listaProdutos.map (evento => {
-      const criarElemento = criaNovaLinha(evento.imageUrl, evento.nome, evento.valor, evento.id, evento.categoria)      
-      const item = evento.id
-      if(id == item){
-        
-          verProdutosD.appendChild(criarElemento)
-          verProdutos.style.display = 'flex'
+  
 
-          containers.forEach(container => {
-            container.style.display = "none"
-        })
 
-      }
-      })
-  });
-}

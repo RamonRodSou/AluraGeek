@@ -15,10 +15,10 @@ import { produtoService } from '../../service/produto-service.js'
     inputImg.value = dados.imageUrl
     inputNome.value = dados.nome
     inputValor.value = dados.valor
-    inputDescricao.value = dados.inputDescricao
+    inputDescricao.value = dados.descricao
   }
   catch(erro){
-    console.log(erro)
+    console.log(erro) 
     window.location.href="../../page/erro.html"
   }
 

@@ -6,10 +6,3 @@
     margin: 0 auto;
     padding: 2rem 0;
 }
-
-@media screen and (max-width:900px) {
-    .banner__info {
-        
-    }
-
-}

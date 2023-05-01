@@ -1,4 +1,4 @@
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
 
 
     .mobile__item {
@@ -8,11 +8,11 @@
         cursor: pointer;
         border-bottom: 1px solid rgba(36, 74, 111, 0.436);
 
-        box-shadow: rgba(0, 0, 0, 0.288) 5px 5px 5px;
+        /* box-shadow: rgba(0, 0, 0, 0.288) 5px 5px 5px;
         margin: 3px;
         border: 1px solid black;
         border-radius: 10px;
-        background-color: var(--azulclaro);
+        background-color: var(--azulclaro); */
     }
 
     .mobile__item:first-child {

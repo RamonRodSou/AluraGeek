@@ -11,35 +11,25 @@
         <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho.css">
         <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho-item.css">
         <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
-        <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho-logo.css">
-        <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho-pesquisa.css">
         <link rel="stylesheet" href="../../../assets/css/cabecalho/cabecalho-botao.css">
         <link rel="stylesheet" href="../../../assets/css/banner/container-banner.css">
         <link rel="stylesheet" href="../../../assets/css/banner/banner-info.css">
         <link rel="stylesheet" href="../../../assets/css/banner/banner-intro.css">
         <link rel="stylesheet" href="../../../assets/css/banner/banner-promocao.css">
         <link rel="stylesheet" href="../../../assets/css/banner/banner-botao.css">
-        <link rel="stylesheet" href="../../../assets/css/login/container-login.css">
-        <link rel="stylesheet" href="../../../assets/css/login/login-titulo.css">
-        <link rel="stylesheet" href="../../../assets/css/login/login-inputContainer.css">
         <link rel="stylesheet" href="../../../assets/css/login/login-email.css">
         <link rel="stylesheet" href="../../../assets/css/login/login-senha.css">
         <link rel="stylesheet" href="../../../assets/css/login/login-entrar.css">
         <link rel="stylesheet" href="../../../assets/css/login/login-botao.css">
-        <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-container.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-titulo.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-form.css">
-        <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-img.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-botao.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-categoria.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-categoriaTitulo.css">
-        <link rel="stylesheet" href="../../../assets/css/cadastroProduto/picture.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/inputs.css">
         <link rel="stylesheet" href="../../../assets/css/perfil/perfil-botao.css">
         <link rel="stylesheet" href="../../../assets/css/perfil/container-perfilNav.css">
-
-
         
     </head>
     <body>
@@ -67,12 +57,12 @@
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
                     <div class="cadastroProduto__valor input-container cadastro__preco-container">
-                        <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-valor data-tipo="preco" required>
+                        <input name="preco" id="preco" class="input" type="number" placeholder="Preço" data-valor data-tipo="preco" required>
                         <label class="input-label" for="preco">Preço</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
-                    <div class="input-container cadastro__descricao-container">
-                        <input class="input" name="descricao" id="descricao" placeholder="Descrição" data-descricao data-tipo="descricao" required>
+                    <div class="cadastroProduto__descricao input-container cadastro__descricao-container">
+                        <input class="input" name="descricao" id="descricao" placeholder="Descrição" data-descricao data-tipo="descricao" wrap required >
                         <label class="input-label" for="descricao">Descrição</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>

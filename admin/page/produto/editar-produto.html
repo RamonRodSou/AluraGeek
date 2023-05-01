@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-form.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-img.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-botao.css">
+        <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-descricao.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-categoria.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/cadastroProduto-categoriaTitulo.css">
         <link rel="stylesheet" href="../../../assets/css/cadastroProduto/picture.css">
@@ -67,9 +68,14 @@
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
                     </div>
                     <div class="cadastroProduto__valor">
-                        <input name="preco" id="preco" class="input" type="text" placeholder="Preço" data-valor data-tipo="preco" required>
+                        <input name="preco" id="preco" class="input" type="number" placeholder="Preço" data-valor data-tipo="preco" required>
                         <label class="input-label" for="preco">Preço</label>
                         <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </div>
+                    <div class="cadastroProduto__descricao">
+                        <input class="input" name="descricao" id="descricao" placeholder="Descrição" data-descricao data-tipo="descricao" required>
+                        <label class="input-label" for="descricao">Descrição</label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <button type="submit"class="cadastroProduto__botao" data-editabtnProduto>Editar Produto</button>
 
@@ -77,6 +83,7 @@
             </section>
         </main>
         <script type="module" src="../../controller/produto/atualizaProduto-controller.js"></script>
+
     </body>
     </html>
     

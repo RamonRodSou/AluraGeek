@@ -1,8 +1,17 @@
-.produto__descricao {
 
+.produto__descricao {
+    margin-top: 2rem;
     color: #464646;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    flex-shrink: 5;
 }
+
+.produto__descricao-none {
+
+    display: none;
+} 

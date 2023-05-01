@@ -9,7 +9,6 @@ const formulario = document.querySelector('[data-formProduto]')
     const nome = evento.target.querySelector('[data-nome]').value
     const valor = evento.target.querySelector('[data-valor]').value
     const descricao = evento.target.querySelector('[data-descricao]').value
-
     const categoria = document.querySelector('input[name="categoria"]:checked').value;
 
     await produtoService.criaProduto(img, nome, valor, descricao, categoria)

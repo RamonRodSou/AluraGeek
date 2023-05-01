@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="../../assets/css/banner/banner-botao.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-lista.css">
+        <link rel="stylesheet" href="../../assets/css/produto/produto-nome.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-item.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-img.css">
         <link rel="stylesheet" href="../../assets/css/produto/produto-descricao.css">
@@ -87,7 +88,7 @@
 
             </div>
         </section>
-        <section class="fantasma container" data-verProduto >
+        <section class="fantasma container" data-verProduto data-secProduto-d>
             <div class="produto">
                 <h1 class="titulo_section verProduto">Descrição</h1>
             </div>
@@ -95,28 +96,28 @@
 
             </div>
         </section>
-        <section class="container" data-secProduto >
+        <section class="container ac ab" data-secProduto >
             <div class="produto">
                 <h1 class="titulo_section"data-anime="left">Star Wars</h1>
-                <a class="verTudo" data-anime="right">Ver tudo </a>
+                <a class="verTudo" data-anime="right" data-TodosStarWar>Ver tudo </a>
             </div>
             <div class="lista" data-produto data-tabelaProduto data-anime="down">
 
             </div>
         </section>
-        <section class="container" data-secProduto >
+        <section class="container bc ab" data-secProduto >
             <div class="produto">
                 <h1 class="titulo_section" data-anime="left">Consoles</h1>
-                <a class="verTudo" data-anime="right">Ver tudo</a>
+                <a class="verTudo" data-anime="right" data-TodosConsoles>Ver tudo</a>
             </div>
             <div class="lista" data-console data-tabelaProduto data-anime="down">
 
             </div>
         </section>
-        <section class="container" data-secProduto>
+        <section class="container bc ac" data-secProduto>
             <div class="produto">
                 <h1 class="titulo_section" data-anime="left">Diversos</h1>
-                <a class="verTudo" data-anime="right">Ver tudo</a>
+                <a class="verTudo" data-anime="right" data-TodosDiversos>Ver tudo</a>
             </div>
             <div class="lista" data-diverso data-tabelaProduto data-anime="down">
 
@@ -145,7 +146,7 @@
                     <a href="" class="rodape__item">Quero ser franqueado</a>
                     <a href="" class="rodape__item">Anuncie aqui</a>
                 </div>
-                <form  class="container__form">
+                <form  class="container__form" action="https://formspree.io/f/xayzveql" method="POST">
                     <p class="form__titulo">Fale conosco</p>
                     <div class="input-container input-container__invalido" >
                         <input name="nome" id="nome" class="input form__nome" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>

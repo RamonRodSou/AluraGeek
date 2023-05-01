@@ -1,6 +1,6 @@
 .banner__botao{
 
-    background: var(--azul);
+    background-color: var(--azul);
     border: none;
     color: #ffffffa4;
     
@@ -14,4 +14,15 @@
     width: 130px;
     height: 41px;
 
+    cursor: pointer;
+}
+
+.banner__botao:hover{
+
+    background-color:rgb(3, 58, 146) ;
+}
+
+.banner__botao:active{
+
+    background-color:rgb(2, 13, 30) ;
 }

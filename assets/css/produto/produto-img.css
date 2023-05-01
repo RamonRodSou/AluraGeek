@@ -3,4 +3,14 @@
     width: 176px;
     height: 174px;
     border-radius: 5px;
+    flex-grow: 2;
+
+}
+
+.produto__img-produto {
+
+    flex-grow: 2;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
 }

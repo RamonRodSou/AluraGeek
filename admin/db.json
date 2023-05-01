@@ -23,72 +23,160 @@
       "data": "2000-07-13",
       "tipo": 50,
       "id": 5
+    },
+    {
+      "nome": "SamaraRod",
+      "email": "samara@gmail.com",
+      "senha": "Sa123456",
+      "data": "2000-02-20",
+      "tipo": 50,
+      "id": 6
     }
   ],
   "produto": [
     {
-      "imageUrl": "../../../assets/img/produto/2.png",
-      "nome": "Boneco StarWars",
-      "valor": "60,50",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643528615612467/1.png",
+      "nome": "Caneca Clones",
+      "valor": "120",
+      "descricao": "A caneca dos personagens clones do filme Star Wars é um item essencial para os fãs da saga épica de ficção científica. A caneca apresenta uma imagem impressa de alta qualidade de vários clones troopers em ação, vestidos com sua icônica armadura branca. A arte é rica em detalhes, com cada clone trooper mostrando uma postura dinâmica e imponente, enquanto empunha suas armas blaster.  A caneca é fabricada em cerâmica de alta qualidade, com capacidade para cerca de 325ml de líquido. Ela é resistente e durável, adequada para uso diário ou para ser exibida como uma peça de colecionador. A alça da caneca é confortável e fácil de segurar, e a borda é arredondada para facilitar a degustação da sua bebida favorita.  Esta caneca é perfeita para os fãs de Star Wars que apreciam uma boa xícara de café, chá ou qualquer outra bebida quente ou fria. Ela também é uma ótima opção de presente para amigos ou familiares que compartilham do amor pela franquia Star Wars e seus personagens icônicos.",
+      "categoria": "1",
+      "id": 1
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643528963723344/2.png",
+      "nome": "Cabeça do DarthVade",
+      "valor": "350",
+      "descricao": "O boneco da cabeça do Darth Vader é uma peça incrível para os fãs de Star Wars e colecionadores de figuras de ação. Esta réplica detalhada apresenta uma escultura precisa da icônica máscara de Darth Vader, o lendário vilão da saga Star Wars.  O boneco é feito de material resistente, com cerca de 15cm de altura. A máscara de Darth Vader é esculpida com grande atenção aos detalhes, incluindo a grade do respirador e as lentes dos olhos iluminadas em vermelho. O capacete é pintado com a mesma cor preta brilhante que caracteriza a armadura de Vader no filme.  Além disso, o boneco vem com uma capa preta que pode ser retirada ou ajustada, permitindo que você crie diferentes poses para exibir a figura. A base da figura apresenta o logo de Star Wars, fornecendo uma exibição adicional e destacando a importância do personagem icônico que ela representa.  Este boneco é um item de colecionador obrigatório para qualquer fã de Star Wars, pois captura a essência do personagem e sua aura ameaçadora e poderosa. É também um presente perfeito para amigos e familiares que amam a saga Star Wars e o lendário vilão Darth Vader.",
       "categoria": "1",
       "id": 2
     },
     {
-      "imageUrl": "../../../assets/img/produto/3.png",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643529337032704/3.png",
       "nome": "Boneco Yoda",
-      "valor": "60,50",
+      "valor": "400",
+      "descricao": "O boneco do Yoda é uma figura de ação detalhada e realista do lendário personagem de Star Wars. Este boneco é uma réplica fiel do mestre Jedi, que é conhecido por seu sábio conselho, habilidades de combate e seus ensinamentos valiosos para os jovens padawans.  O boneco apresenta cerca de 10cm de altura e é feito de material durável, com articulações em vários pontos para permitir uma ampla gama de movimentos. O Yoda vem com uma capa de tecido verde, imitando a roupa usada pelo personagem nos filmes. Sua cabeça é esculpida com grande atenção aos detalhes, apresentando rugas, orelhas pontudas, olhos brilhantes e cabelos longos e grisalhos.  Além disso, o boneco vem com seu icônico bastão de combate, que pode ser facilmente segurado em sua mão, permitindo recriar cenas de batalha emocionantes do universo de Star Wars.  Este boneco é uma peça de colecionador imperdível para os fãs de Star Wars que apreciam o personagem icônico e amado do Mestre Yoda. É também um presente perfeito para amigos e familiares que compartilham do amor pela saga Star Wars e seus personagens lendários. Com esta figura de ação em sua coleção, os fãs podem recriar suas cenas favoritas da franquia e expandir sua imaginação no universo de Star Wars.",
       "categoria": "1",
       "id": 3
     },
     {
-      "imageUrl": "../../../assets/img/produto/4.png",
-      "nome": "Boneco StarWars",
-      "valor": "60,50",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643529752252446/4.png",
+      "nome": "Boneco Clone Trooper",
+      "valor": "500",
+      "descricao": "O boneco dos clones trooper é uma figura de ação incrivelmente detalhada dos soldados clonados do universo Star Wars. Este boneco é uma réplica fiel dos troopers em sua icônica armadura branca, que aparecem em muitas cenas de batalha emocionantes da franquia Star Wars.  O boneco apresenta cerca de 15cm de altura e é feito de material durável e resistente. Os detalhes na armadura são notáveis, desde o capacete até os ombros, peitoral e pernas, além de pequenos detalhes como os emblemas em seus braços e peito. As articulações em vários pontos permitem que a figura seja posicionada em diversas poses e cenas de ação, com acessórios como armas blaster e mochilas removíveis, proporcionando ainda mais opções de personalização.  O boneco dos clones trooper é perfeito para os fãs de Star Wars que desejam recriar cenas emocionantes de batalha do universo Star Wars. Além disso, é um item de colecionador imperdível para os fãs da franquia que apreciam a estética icônica dos troopers e desejam expandir sua coleção de figuras de ação.  Este boneco também é um presente incrível para amigos e familiares que são fãs de Star Wars e desejam adicionar à sua coleção de memorabilia. Com o boneco dos clones trooper em sua coleção, os fãs podem recriar batalhas épicas, celebrar sua paixão por Star Wars e dar vida ao universo da franquia em suas próprias casas.",
       "categoria": "1",
       "id": 4
     },
     {
-      "imageUrl": "../../../assets/img/diverso/1.png",
-      "nome": "Bandeira",
-      "valor": "100,00",
-      "categoria": "3",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643530029088848/5.png",
+      "nome": "Boneco Yoda Kid",
+      "valor": "500",
+      "descricao": "O boneco do Yoda Kid é uma figura de ação adorável e detalhada do jovem Yoda, como ele apareceu no filme \"Star Wars: Episódio II - Ataque dos Clones\". Esta figura representa o Yoda como um jovem padawan, antes de se tornar o Mestre Jedi sábio e poderoso que os fãs conhecem e amam.  Com cerca de 9 cm de altura, o boneco do Yoda Kid é feito de material durável e resistente. A figura apresenta detalhes impressionantes, desde as rugas em seu rosto até as dobras de sua túnica marrom e capuz. Sua cabeça é esculpida com grande atenção aos detalhes, apresentando orelhas pontudas, olhos brilhantes e cabelos longos e grisalhos.  O boneco também é articulado em vários pontos, permitindo uma ampla gama de movimentos e poses. A figura vem com um sabre de luz verde, para que os fãs possam recriar cenas de batalha empolgantes com este jovem Jedi.  O boneco do Yoda Kid é uma peça de colecionador imperdível para os fãs de Star Wars que desejam expandir sua coleção de figuras de ação. Além disso, é um item adorável para fãs de todas as idades, que apreciam o personagem icônico do jovem Yoda.  Este boneco é um presente incrível para amigos e familiares que são fãs de Star Wars, especialmente aqueles que têm uma afinidade particular pelo personagem do jovem Yoda. Com a figura do Yoda Kid em sua coleção, os fãs podem recriar cenas emocionantes do universo Star Wars, celebrar sua paixão pela saga e exibir orgulhosamente seu amor pelo jovem padawan Jedi.",
+      "categoria": "1",
       "id": 5
     },
     {
-      "imageUrl": "../../../assets/img/console/1.png",
-      "nome": "Playstation 5",
-      "valor": "3000,00",
-      "categoria": "2",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643530461089822/6.png",
+      "nome": "Boneco Kylo Ren",
+      "valor": "1000",
+      "descricao": "O boneco Kylo Ren é uma figura de ação impressionante e altamente detalhada do personagem homônimo da franquia Star Wars. Este boneco captura perfeitamente o visual ameaçador e distinto do vilão, com sua icônica máscara preta e capa longa.  Com cerca de 15cm de altura, o boneco Kylo Ren é feito de material durável e resistente. A figura apresenta detalhes impressionantes em sua armadura e traje, com destaque para as linhas vermelhas marcantes em seu capacete. O rosto de Kylo Ren é esculpido com grande atenção aos detalhes, apresentando a cicatriz distintiva em seu olho e barba por fazer.  O boneco também é articulado em vários pontos, permitindo uma ampla gama de movimentos e poses. A figura vem com seu icônico sabre de luz vermelho, com lâmina iluminada que pode ser removida para simular batalhas épicas.  O boneco Kylo Ren é um item obrigatório para os fãs de Star Wars que desejam expandir sua coleção de figuras de ação. É perfeito para aqueles que adoram os vilões da franquia e desejam exibir sua paixão pelo personagem imponente e intimidante.  Este boneco também é um presente incrível para amigos e familiares que são fãs de Star Wars e desejam adicionar à sua coleção de memorabilia. Com o boneco Kylo Ren em sua coleção, os fãs podem recriar cenas emocionantes do universo Star Wars, celebrar sua paixão pela franquia e exibir orgulhosamente seu amor pelo vilão da Primeira Ordem.",
+      "categoria": "1",
       "id": 6
     },
     {
-      "imageUrl": "../../../assets/img/console/2.png",
-      "nome": "Atari",
-      "valor": "1000,00",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649855794491433/1.png",
+      "nome": "Playstation 5",
+      "valor": "4500",
+      "descricao": "O PlayStation 5 é a mais recente adição à família de consoles de videogame da Sony e oferece uma experiência de jogo incrível com recursos de última geração. O console apresenta uma aparência moderna e elegante com um design futurista em branco e preto. Aqui estão algumas das principais características do PlayStation 5:  Desempenho: O PlayStation 5 é alimentado por um processador AMD Zen 2 personalizado e uma GPU AMD Radeon RDNA 2 personalizada, o que permite um desempenho incrível em gráficos de alta qualidade e tempos de carregamento extremamente rápidos. Isso permite que os jogos sejam executados de forma mais suave e rápida do que nunca, tornando a experiência de jogo mais imersiva e envolvente.  4K UHD e Ray Tracing: O PlayStation 5 oferece gráficos incríveis com suporte para jogos em 4K UHD e Ray Tracing, permitindo que os jogos sejam executados em uma qualidade impressionante de 3840 x 2160 pixels. Os gráficos incríveis e realistas permitem que os jogos pareçam mais imersivos do que nunca.  Armazenamento: O PlayStation 5 vem com um disco rígido SSD ultra-rápido de 825 GB que oferece tempos de carregamento incrivelmente rápidos. Os jogos são carregados em segundos, o que significa que você pode jogar imediatamente sem ter que esperar por longos tempos de carregamento. Além disso, o console possui uma porta USB-C que permite a expansão do armazenamento.  Controle DualSense: O PlayStation 5 vem com um novo controle chamado DualSense, que é uma melhoria significativa em relação ao controle DualShock 4 do PlayStation 4. O DualSense apresenta tecnologia háptica avançada que fornece feedback tátil preciso aos jogadores, bem como gatilhos adaptáveis que oferecem diferentes níveis de resistência dependendo do jogo.  Jogos exclusivos: O PlayStation 5 possui uma lista crescente de jogos exclusivos, como Spider-Man: Miles Morales, Demon's Souls e Returnal, que só podem ser jogados no console. Esses jogos foram projetados especificamente para tirar proveito do hardware de última geração do PlayStation 5, oferecendo experiências de jogo incríveis.  Com base em todas essas características, é fácil entender por que você deve ter um PlayStation 5. O console oferece uma experiência de jogo de última geração, com gráficos incríveis, tempos de carregamento rápidos e uma lista crescente de jogos exclusivos. Se você é um fã de jogos e deseja experimentar a mais recente tecnologia em jogos, o PlayStation 5 é uma excelente opção para você.",
       "categoria": "2",
       "id": 7
     },
     {
-      "imageUrl": "../../../assets/img/diverso/2.png",
-      "nome": "Camisa Gamer",
-      "valor": "30,00",
-      "categoria": "3",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649856188764160/2.png",
+      "nome": "Nitendo 8 bits",
+      "valor": "2000",
+      "descricao": "O Nintendo Entertainment System, ou NES, é um console de videogame lançado pela Nintendo em 1985 e é considerado um dos consoles mais icônicos da história dos videogames. Como um videogame antigo de colecionador, o NES pode ser muito valioso para os fãs de videogame retro e colecionadores de itens raros. Aqui estão algumas características notáveis do NES:  Design: O NES apresenta um design icônico com uma aparência quadrada e uma cor predominantemente cinza, com botões vermelhos e pretos. O console era relativamente compacto para a época e podia ser facilmente transportado, tornando-o um dos consoles mais populares da época.  Controladores: O NES vem com dois controladores padrão que se conectam ao console com fio. Cada controlador possui um direcional, um botão Start, um botão Select e quatro botões principais (A, B, A e B). Os controladores eram projetados para serem simples e fáceis de usar, com um layout intuitivo.  Cartuchos: O NES usa cartuchos de jogos que são inseridos no slot na parte superior do console. Os jogos variam em tamanho e complexidade, e muitos jogos clássicos foram lançados para o NES, incluindo Super Mario Bros., The Legend of Zelda e Metroid.  Gráficos: O NES apresenta gráficos de 8 bits que eram considerados de alta qualidade para a época. Os jogos NES são conhecidos por sua arte pixelada e estilos de animação divertidos, e muitos jogos NES são considerados clássicos até hoje.  Som: O NES apresenta um som icônico que é facilmente reconhecível pelos fãs de videogames retro. Os efeitos sonoros e a trilha sonora dos jogos NES são frequentemente lembrados por sua simplicidade e eficácia em criar uma atmosfera imersiva.  Como um console de videogame antigo de colecionador, o NES pode ser muito valioso para os fãs de videogame retro. Se você é um colecionador de itens raros ou um entusiasta de jogos antigos, um NES é um ótimo item para adicionar à sua coleção. O NES é um console clássico que definiu uma geração de jogos e ainda é adorado por muitos fãs de videogame hoje.",
+      "categoria": "2",
       "id": 8
     },
     {
-      "imageUrl": "../../../assets/img/diverso/5.png",
-      "nome": "xbox",
-      "valor": "900",
-      "categoria": "3",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649856524300359/3.png",
+      "nome": "Nintendo Switch",
+      "valor": "2100",
+      "descricao": "O Nintendo Switch É Um Console De Videogame Lançado Pela Nintendo Em 2017. É Um Console Híbrido, Que Pode Ser Usado Tanto Como Um Console Doméstico Quanto Como Um Dispositivo Portátil. Aqui Estão Algumas Das Características Notáveis Do Nintendo Switch:  Design: O Nintendo Switch Apresenta Um Design Inovador Que Permite Que O Jogador Use O Console De Várias Maneiras. O Console Pode Ser Usado Como Um Dispositivo Portátil Com Uma Tela Integrada De 6,2 Polegadas, Ou Pode Ser Colocado Em Uma Dock Para Ser Jogado Em Uma TV. O Console É Compacto E Leve, Tornando-O Fácil De Transportar E Jogar Em Qualquer Lugar.  Joy-Cons: O Nintendo Switch Vem Com Dois Joy-Cons, Que São Controladores Que Podem Ser Usados ​​Como Um Par Ou Separados Para Jogar Com Outra Pessoa. Cada Joy-Con Possui Um Direcional, Quatro Botões Principais (A, B, X E Y), Além De Botões Laterais E Gatilhos. Eles Também Possuem Sensores De Movimento, Permitindo Que O Jogador Jogue Jogos Que Usam Movimentos Físicos Para Controlar A Ação.  Jogos: O Nintendo Switch Tem Uma Ampla Variedade De Jogos Disponíveis, Desde Jogos Clássicos Da Nintendo, Como Super Mario E The Legend Of Zelda, Até Jogos De Terceiros Como Minecraft E Fortnite. A Nintendo Tem Uma Forte Reputação Por Criar Jogos Divertidos E Inovadores, E Muitos Dos Jogos Do Nintendo Switch São Exclusivos Da Plataforma.  Gráficos: O Nintendo Switch Possui Gráficos De Alta Qualidade, Com Uma Resolução De Até 1080p Quando Conectado A Uma TV. A Tela Do Dispositivo Portátil Tem Uma Resolução De 720p, Mas Ainda Oferece Uma Experiência De Jogo Agradável E Nítida.  Multiplayer: O Nintendo Switch É Projetado Para Permitir O Jogo Multiplayer, Seja Online Ou Localmente. Com O Uso De Vários Joy-Cons, É Possível Jogar Jogos Com Amigos E Familiares Em Uma Única Tela. Alguns Jogos, Como Mario Kart 8 Deluxe, Suportam Até Quatro Jogadores Em Um Console.  Por Que Ter Um Nintendo Switch? O Nintendo Switch É Um Console Divertido E Inovador, Que Permite Que Os Jogadores Joguem Seus Jogos Favoritos Em Casa Ou Em Movimento. É Um Excelente Dispositivo Para Quem Gosta De Jogar Jogos De Qualidade E Exclusivos Da Nintendo, Bem Como Jogos De Terceiros. A Flexibilidade De Usar O Console Como Um Dispositivo Portátil Ou Conectá-Lo A Uma TV Torna O Nintendo Switch Uma Escolha Versátil Para Jogadores De Todas As Idades. Se Você Está Procurando Um Console De Videogame Com Jogos Divertidos E Uma Experiência Única, O Nintendo Switch É Uma Ótima Opção.",
+      "categoria": "2",
       "id": 9
     },
     {
-      "imageUrl": "https://github.com/RamonRodSou.png",
-      "nome": "Ramon ",
-      "valor": "12132",
-      "descricao": "Ramon é um cara bem Legal",
-      "categoria": "3",
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649856885018674/4.png",
+      "nome": " x Box Serie X",
+      "valor": "5000",
+      "descricao": "O Xbox Series X é um console de videogame de última geração lançado pela Microsoft em 2020. Aqui estão algumas das características notáveis do Xbox Series X:  Poder: O Xbox Series X é um console incrivelmente poderoso, com uma CPU de 8 núcleos e uma GPU de 12 teraflops. Isso significa que ele é capaz de executar jogos em resolução 4K e 60 quadros por segundo, além de suportar gráficos em ray tracing.  Design: O Xbox Series X tem um design elegante e moderno, com uma caixa preta alta que é projetada para ser colocada verticalmente. Ele também possui uma ventoinha de resfriamento personalizada que ajuda a manter o console frio durante longas sessões de jogo.  Carregamento rápido: O Xbox Series X tem um SSD personalizado que oferece tempos de carregamento incrivelmente rápidos. Isso significa que os jogos são carregados mais rapidamente e os tempos de espera entre as telas são reduzidos.  Jogos: O Xbox Series X tem uma ampla variedade de jogos disponíveis, desde jogos exclusivos da Microsoft, como Halo e Forza, até jogos de terceiros como Assassin's Creed e Call of Duty. O console é compatível com jogos de todas as gerações anteriores do Xbox, o que significa que você pode jogar seus jogos favoritos do Xbox original, Xbox 360 e Xbox One no Xbox Series X.  Multiplayer: O Xbox Series X é projetado para permitir o jogo multiplayer, tanto online quanto localmente. Com o Xbox Game Pass, você pode acessar uma biblioteca crescente de jogos e jogá-los com amigos em todo o mundo.  Por que ter um Xbox Series X? O Xbox Series X é um console incrivelmente poderoso, capaz de oferecer uma experiência de jogo de alta qualidade. Se você está procurando jogar jogos em resolução 4K, com gráficos em ray tracing e tempos de carregamento rápidos, o Xbox Series X é uma escolha fantástica. Além disso, o Xbox Game Pass oferece acesso a uma enorme biblioteca de jogos, permitindo que você jogue seus jogos favoritos sem ter que comprá-los individualmente. Se você é um fã de jogos exclusivos da Microsoft, como Halo e Forza, o Xbox Series X é um console obrigatório.",
+      "categoria": "2",
       "id": 10
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649857207971930/5.png",
+      "nome": "Game Boy",
+      "valor": "500",
+      "descricao": "O Game Boy é um console portátil de videogame lançado pela Nintendo em 1989. Aqui estão algumas das características notáveis do Game Boy:  Portabilidade: O Game Boy é extremamente portátil, pesando apenas cerca de 400 gramas. Ele pode ser facilmente transportado em uma bolsa ou mochila, permitindo que você jogue seus jogos favoritos em qualquer lugar.  Bateria: O Game Boy usa quatro pilhas AA para alimentação, proporcionando cerca de 10 horas de tempo de jogo. Isso significa que você pode jogar por horas a fio sem precisar trocar as baterias.  Jogos: O Game Boy tem uma grande variedade de jogos disponíveis, desde jogos exclusivos da Nintendo, como Super Mario Land e The Legend of Zelda, até jogos de terceiros, como Tetris e Pokémon. Os jogos do Game Boy vêm em cartuchos que são fáceis de trocar, permitindo que você alterne rapidamente entre jogos diferentes.  Tela: O Game Boy tem uma tela LCD de quatro tons de cinza, que fornece uma experiência de jogo nítida e clara, mesmo em condições de pouca luz.  Conectividade: O Game Boy pode ser conectado a outros consoles Game Boy para jogar jogos multiplayer. Também há um adaptador disponível que permite que você conecte o Game Boy ao seu televisor para uma experiência de jogo maior.  Por que ter um Game Boy? O Game Boy é um console clássico que oferece uma experiência de jogo única. Ele é extremamente portátil, permitindo que você jogue seus jogos favoritos em qualquer lugar. Além disso, o Game Boy tem uma grande variedade de jogos disponíveis, que vão desde clássicos da Nintendo até jogos de terceiros populares. O tempo de jogo prolongado proporcionado pela sua bateria, combinado com sua conectividade, oferece a possibilidade de jogos multiplayer com amigos, adicionando mais diversão e socialização aos jogos. Por fim, ter um Game Boy pode proporcionar uma sensação de nostalgia para aqueles que cresceram jogando com este console clássico. Se você é um fã de jogos retrô e deseja experimentar o charme nostálgico do Game Boy, então ter um pode ser uma ótima escolha.",
+      "categoria": "2",
+      "id": 11
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102649857644187718/6.png",
+      "nome": "Controle XBox",
+      "valor": "400",
+      "descricao": "O controle do Xbox é um dos controles de videogame mais icônicos e populares do mundo. Aqui estão algumas das suas características notáveis:  Design ergonômico: O controle do Xbox tem um design ergonômico que se encaixa confortavelmente na mão do jogador, permitindo horas de jogo sem fadiga.  Botões e gatilhos responsivos: O controle do Xbox possui botões e gatilhos altamente responsivos, proporcionando uma experiência de jogo precisa e imersiva.  Conectividade: O controle do Xbox pode ser conectado sem fio ao console Xbox ou ao PC por meio de Bluetooth ou um dongle USB. Ele também pode ser conectado com fio por meio de um cabo USB, permitindo que você jogue e carregue ao mesmo tempo.  Personalização: O controle do Xbox permite personalização, com opções de cores e modelos especiais. Também é possível personalizar a atribuição dos botões por meio do aplicativo Xbox Accessories.  Compatibilidade: O controle do Xbox é compatível com uma ampla variedade de jogos para Xbox, PC e outros consoles, além de oferecer suporte a acessórios como headsets de áudio.  Por que ter um controle do Xbox? O controle do Xbox é uma escolha popular entre jogadores devido à sua ergonomia e alta capacidade de resposta. Ele oferece uma ampla compatibilidade com jogos e é fácil de usar, além de permitir a personalização para se adequar ao estilo de jogo de cada indivíduo. A conectividade sem fio é outra vantagem, permitindo jogar em grandes distâncias do console, enquanto a conectividade por cabo é ideal para jogos competitivos que exigem resposta rápida. Se você é um jogador ávido, ter um controle do Xbox é uma excelente opção para melhorar sua experiência de jogo e desfrutar de horas de jogabilidade confortável e imersiva.",
+      "categoria": "2",
+      "id": 12
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655259798667314/1.png",
+      "nome": "Camisa Estama Arabe",
+      "valor": "59",
+      "descricao": "As camisas estampadas com frases chinesas são uma peça de roupa única e estilosa que podem adicionar um toque de cultura e mistério ao seu guarda-roupa. Aqui estão algumas características notáveis que fazem delas uma opção interessante:  1. Frases em chinês: As camisas estampadas com frases em chinês apresentam uma oportunidade de expressar uma mensagem em uma língua milenar com uma escrita belíssima e cheia de simbolismo. As frases podem ser desde provérbios populares até citações de poetas famosos, além de serem inspiradoras e transmitir mensagens poderosas.  2. Estilo moderno: Apesar das frases em chinês, as camisas estampadas podem ter um estilo moderno e elegante. Elas podem ser facilmente combinadas com calças jeans para um visual casual, ou com uma calça social para uma ocasião mais formal.  3. Impressão de qualidade: As camisas estampadas com frases em chinês são geralmente produzidas com tecidos de qualidade e impressão de alta qualidade. Isso garante que as frases não se desgastem ou sejam apagadas com o tempo.  4. Conforto: As camisas estampadas são geralmente feitas de tecidos leves e respiráveis, tornando-as confortáveis ​​para uso em climas quentes.  5. Representação cultural: As camisas estampadas com frases em chinês podem representar a cultura chinesa e ser uma maneira de mostrar seu interesse e apreciação por ela.  Por que ter uma camisa estampada com frase chinesa? Além de adicionar um toque de mistério e cultura ao seu guarda-roupa, as camisas estampadas com frases em chinês podem ser uma maneira de mostrar sua personalidade única e ampliar seus horizontes culturais. As frases podem transmitir uma mensagem poderosa ou significado que você pode se identificar ou se inspirar. Além disso, as camisas estampadas com frases em chinês são geralmente feitas de tecidos de qualidade, garantindo durabilidade e conforto. Se você quer uma peça de roupa única e estilosa que represente sua apreciação pela cultura chinesa e ao mesmo tempo transmita sua personalidade e estilo único, uma camisa estampada com frase chinesa pode ser uma ótima escolha.",
+      "categoria": "3",
+      "id": 13
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655260054528160/2.png",
+      "nome": "Camisa Estama de Fitas",
+      "valor": "59",
+      "descricao": "As camisas estampadas são uma peça de roupa versátil e estilosa que podem adicionar personalidade a qualquer guarda-roupa. Aqui estão algumas das suas características notáveis:  1. Variedade de estampas: As camisas estampadas estão disponíveis em uma ampla variedade de estilos e padrões, desde estampas florais e listradas até estampas gráficas e artísticas.  2. Estilo casual: As camisas estampadas são perfeitas para um visual casual e descontraído, e podem ser facilmente combinadas com jeans, calças cargo ou bermudas.  3. Tecidos leves: As camisas estampadas são geralmente feitas de tecidos leves, como algodão ou linho, o que as torna confortáveis e respiráveis durante o clima quente.  4. Personalidade: As camisas estampadas são uma ótima maneira de mostrar sua personalidade e estilo único, permitindo que você escolha estampas que reflitam seus interesses ou senso de humor.  5. Versatilidade: As camisas estampadas podem ser usadas em uma variedade de ocasiões, desde um dia casual no parque até um evento social mais formal, dependendo do padrão e tecido da camisa.  Por que ter uma camisa estampada? Uma camisa estampada pode ser uma adição versátil e estilosa ao seu guarda-roupa. Ela pode ser usada para mostrar sua personalidade, seja através de uma estampa divertida ou uma estampa mais sofisticada. A camisa estampada também é uma escolha confortável e respirável para o clima quente, tornando-a ideal para dias de verão ou viagens para locais tropicais. Além disso, a ampla variedade de padrões e tecidos disponíveis significa que há uma camisa estampada adequada para qualquer ocasião, desde eventos casuais até ocasiões mais formais. Se você procura uma peça de roupa estilosa e versátil para adicionar ao seu guarda-roupa, uma camisa estampada pode ser uma ótima opção.",
+      "categoria": "3",
+      "id": 14
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655260360716379/3.png",
+      "nome": "Boneco do Sonic",
+      "valor": "360",
+      "descricao": "O boneco do Sonic é um item de colecionador muito popular entre os fãs do personagem e da franquia de jogos da Sega. Existem várias opções de bonecos do Sonic disponíveis, desde os modelos mais simples até aqueles com maior nível de detalhamento.  Normalmente, os bonecos do Sonic são feitos de plástico resistente e possuem cerca de 15-20cm de altura. Eles apresentam a aparência clássica do personagem, com seu corpo azul, luvas brancas, tênis vermelhos e olhos verdes grandes. Alguns modelos incluem acessórios, como o anel dourado que é uma parte importante dos jogos do Sonic.  Se você é um fã do personagem, ter um boneco do Sonic pode ser uma maneira divertida de mostrar seu amor pelo jogo e pelo personagem. Além disso, pode ser um ótimo item de decoração para a sua estante ou mesa de trabalho. Se você é um colecionador de itens de videogame, um boneco do Sonic pode ser uma ótima adição à sua coleção.",
+      "categoria": "3",
+      "id": 15
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655260637528104/4.png",
+      "nome": "Relógio de Mesa",
+      "valor": "250",
+      "descricao": "Um relógio de mesa com design antigo é um item elegante e sofisticado que pode trazer charme e estilo a qualquer ambiente. Geralmente, esses relógios apresentam um visual clássico e vintage, com detalhes que lembram a estética de décadas passadas.  Os modelos de relógios de mesa antigos podem variar em termos de design, desde os mais ornamentados e detalhados até os mais simples e minimalistas. Alguns possuem caixas de madeira escura com acabamento polido, enquanto outros são feitos de metais como bronze ou latão, com uma aparência envelhecida e patinada.  Além de seu valor estético, um relógio de mesa antigo pode ser uma peça funcional e útil. Ele pode ser colocado em um escritório, sala de estar ou biblioteca e ajudar a manter o controle do tempo de maneira elegante e discreta.  Se você é um amante de objetos vintage ou está em busca de um item sofisticado e atemporal para adicionar à sua decoração, um relógio de mesa com design antigo pode ser uma ótima opção. Ele pode dar um toque de elegância e charme a qualquer ambiente, além de oferecer uma funcionalidade prática para o seu dia a dia.",
+      "categoria": "3",
+      "id": 16
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655260926943382/5.png",
+      "nome": "C. Estama de Hamburguer",
+      "valor": "59",
+      "descricao": "As camisas estampadas são uma peça de roupa versátil e estilosa que podem adicionar personalidade a qualquer guarda-roupa. Aqui estão algumas das suas características notáveis:  1. Variedade de estampas: As camisas estampadas estão disponíveis em uma ampla variedade de estilos e padrões, desde estampas florais e listradas até estampas gráficas e artísticas.  2. Estilo casual: As camisas estampadas são perfeitas para um visual casual e descontraído, e podem ser facilmente combinadas com jeans, calças cargo ou bermudas.  3. Tecidos leves: As camisas estampadas são geralmente feitas de tecidos leves, como algodão ou linho, o que as torna confortáveis e respiráveis durante o clima quente.  4. Personalidade: As camisas estampadas são uma ótima maneira de mostrar sua personalidade e estilo único, permitindo que você escolha estampas que reflitam seus interesses ou senso de humor.  5. Versatilidade: As camisas estampadas podem ser usadas em uma variedade de ocasiões, desde um dia casual no parque até um evento social mais formal, dependendo do padrão e tecido da camisa.  Por que ter uma camisa estampada? Uma camisa estampada pode ser uma adição versátil e estilosa ao seu guarda-roupa. Ela pode ser usada para mostrar sua personalidade, seja através de uma estampa divertida ou uma estampa mais sofisticada. A camisa estampada também é uma escolha confortável e respirável para o clima quente, tornando-a ideal para dias de verão ou viagens para locais tropicais. Além disso, a ampla variedade de padrões e tecidos disponíveis significa que há uma camisa estampada adequada para qualquer ocasião, desde eventos casuais até ocasiões mais formais. Se você procura uma peça de roupa estilosa e versátil para adicionar ao seu guarda-roupa, uma camisa estampada pode ser uma ótima opção.",
+      "categoria": "3",
+      "id": 17
+    },
+    {
+      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655261195382784/6.png",
+      "nome": "Ursinho do Pikachu",
+      "valor": "100",
+      "descricao": "O ursinho de pelúcia do Pikachu é uma peça de colecionador perfeita para fãs de Pokémon e amantes de pelúcias fofas e macias. Ele é um modelo em miniatura do personagem icônico da franquia Pokémon, apresentando seu design amarelo com listras pretas, bochechas rosadas e grandes orelhas pontudas.  Feito de pelúcia de alta qualidade, o ursinho do Pikachu é extremamente macio e agradável ao toque, sendo uma ótima opção para abraçar ou para exibir em prateleiras e estantes. Além disso, ele vem com uma etiqueta oficial da The Pokémon Company, garantindo sua autenticidade e qualidade.  Ter um ursinho do Pikachu em sua coleção pode ser uma maneira de mostrar seu amor pela franquia Pokémon e pelo personagem icônico. Ele pode ser um presente perfeito para crianças e adultos que são fãs de Pokémon ou para quem quer adicionar um toque de fofura e diversão em sua decoração.  Portanto, se você é um fã de Pokémon ou simplesmente adora ursinhos de pelúcia fofos, ter um ursinho do Pikachu é uma excelente escolha para adicionar em sua coleção ou presentear alguém especial.",
+      "categoria": "3",
+      "id": 18
     }
   ]
 }

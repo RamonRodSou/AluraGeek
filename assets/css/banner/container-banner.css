@@ -11,7 +11,22 @@
 @media screen and (max-width:900px) {
     .container__banner {
 
+        background-position-x: -10rem;
+    }
 
+}
+
+@media screen and (max-width:650px) {
+    .container__banner {
+
+        background-position-x: -20rem;
+    }
+
+}
+@media screen and (max-width:460px) {
+    .container__banner {
+
+        background-position-x: -25rem;
     }
 
 }

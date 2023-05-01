@@ -31,6 +31,22 @@
       "data": "2000-02-20",
       "tipo": 50,
       "id": 6
+    },
+    {
+      "nome": "testando",
+      "email": "testando@teste",
+      "senha": "Ts123456",
+      "data": "2000-02-20",
+      "tipo": 50,
+      "id": 9
+    },
+    {
+      "nome": "testando2",
+      "email": "elosaisa@gmail.com",
+      "senha": "Ra123456",
+      "data": "2000-02-20",
+      "tipo": 50,
+      "id": 10
     }
   ],
   "produto": [

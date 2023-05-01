@@ -10,12 +10,25 @@ formulario.addEventListener('submit', async (evento) => {
     const senha = evento.target.querySelector('[data-senha]').value
     const data = evento.target.querySelector('[data-data]').value
     const tipo = 50
-
-    await clienteService.criaCliente(nome, email, senha, data, tipo)
-    window.location.href = './cadastro-concluido.html'
+    
+    fetch('../../db.json').then((response) => {
+      response.json().then((db) => {
+        const usuarioCargo = db.profile.find(evento => evento.email === email)
+        window.console.log(usuarioCargo)
+        if(usuarioCargo){
+          alert('Esse Email ja esta cadastrado')
+        }
+        else {
+          clienteService.criaCliente(nome, email, senha, data, tipo)
+          window.location.href = './cadastro-concluido.html'
+        }
+     })
+    })
   }
+
+
   catch (erro) {
     console.log(erro)
-    window.location.href = "../../page/erro.html"
+    // window.location.href = "../../page/erro.html"
   }
 })

@@ -5,7 +5,7 @@
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "public": "/(.*)", "dest": "/index.html" },
+    { "public": "/public", "dest": "/index.html" },
     {
       "src": "/js/(.*)",
       "dest": "/src/cliente/"

@@ -1,7 +1,7 @@
 .login__email {
     
     box-sizing: border-box;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid #0f4783;
     padding: 0.5rem;
     width: 80%;
 }

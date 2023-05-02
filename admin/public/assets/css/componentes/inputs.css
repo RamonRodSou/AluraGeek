@@ -1,6 +1,6 @@
 
 .input-container {
-    font-weight: var(--fonte-peso-input);
+    font-weight: 300;
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -11,9 +11,9 @@
 
 .input {
     box-sizing: border-box;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid #0f4783;
 
-    border-bottom: 1px solid var(--cor-secundaria);
+    border-bottom: 1px solid #0f4783;
     padding: 1.375rem 0.5rem 0.5rem;
     height: 3.25rem;
     width: 100%;
@@ -32,7 +32,7 @@
     position: absolute;
     top: 1.375rem;
     left: 0.5rem;
-    font-size: var(--fonte-tamanho-input-label);
+    font-size: 20px;
     color: var(--azul);
     transition: all .25s;
 }
@@ -48,12 +48,12 @@
 }
 
 .input-container--invalido .input {
-    border: 1px solid var(--cor-aviso);
+    border: 1px solid #df2525;
     border-radius: 7px;
 }
 
 .input-container--invalido .input-label {
-    color: var(--cor-aviso);
+    color:#df2525;
 }
 
 .input-mensagem-erro {
@@ -61,7 +61,7 @@
 }
 
 .input-container--invalido .input-mensagem-erro {
-    color: var(--cor-aviso);
+    color:#df2525;
     display: block;
     margin-top: 0.5rem;
     padding-left: 0.5rem;

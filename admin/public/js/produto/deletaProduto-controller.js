@@ -11,7 +11,6 @@ export function DeletaProduto(section, produtoService) {
 
                   }
                   catch(erro){
-                      console.log(erro)
                       window.location.href="../erro.html"
                   }
               }

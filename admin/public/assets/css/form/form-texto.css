@@ -1,7 +1,7 @@
 .form__texto {
 
     box-sizing: border-box;
-    border: 1px solid var(--cor-secundaria);
+    border: 1px solid #0f4783;
     padding: 0.5rem;
     height: 6rem;
     resize: none;
@@ -9,8 +9,8 @@
 
 .form__texto::placeholder {
 
-    font-size: var(--fonte-tamanho-input-label);
-    color: var(--azul);
+    font-size: 20px;
+    color: #468be4;
     transition: all .25s;
 }
 

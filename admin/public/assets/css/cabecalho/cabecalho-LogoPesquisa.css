@@ -24,7 +24,7 @@
 
 .cabecalho__search:focus-visible {
     outline: none;
-    border: 1px solid var(--color-blue);
+    border: 1px solid #468be4;;
 }
 
 .lupa__search {

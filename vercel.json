@@ -1,10 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "AluraGeek": "public/", "use": "@vercel/static" }
+    { "src": "public/", "use": "@vercel/static" }
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "AluraGeek/admin/page": "/(.*)", "dest": "/index.html" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

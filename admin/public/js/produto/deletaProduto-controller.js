@@ -7,8 +7,6 @@ export function DeletaProduto(section, produtoService) {
                       const linhaProduto = evento.target.closest('[data-id]')
                       let id = linhaProduto.dataset.id
                       await produtoService.removeProduto(id)
-                      evento.preventDefault()
-
                   }
                   catch(erro){
                       window.location.href="../erro.html"

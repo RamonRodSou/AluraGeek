@@ -5,6 +5,21 @@
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "public": "/(.*)", "dest": "/index.html" },
+    {
+      "src": "/js/(.*)",
+      "dest": "/src/cliente/"
+    },    {
+      "src": "/js/(.*)",
+      "dest": "/src/produto/"
+    },
+           {
+      "src": "/js/(.*)",
+      "dest": "/src/service/"
+    },
+           {
+      "src": "/js/(.*)",
+      "dest": "/src/validacoes/"
+    }
   ]
 }

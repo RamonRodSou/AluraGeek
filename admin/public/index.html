@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Geek | Home</title>
+        <link rel="stylesheet" href="./assets/css/reset/reset.css">
+        <link rel="stylesheet" href="./assets/css/geral/style.css">
+        <link rel="stylesheet" href="./assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="./assets/css/data-anime/data-anime.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-cliente.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-item.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="./assets/css/mobileMenu/mobile-menu.css">
+        <link rel="stylesheet" href="./assets/css/mobileMenu/mobile-lista.css">
+        <link rel="stylesheet" href="./assets/css/mobileMenu/mobile-item.css">
+        <link rel="stylesheet" href="./assets/css/mobileMenu/mobile-item-link.css">
+        <link rel="stylesheet" href="./assets/css/mobileMenu/mobile-btn.css">
+        <link rel="stylesheet" href="./assets/css/banner/container-banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-info.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-intro.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-promocao.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-botao.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-lista.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-nome.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-item.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-img.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-descricao.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-valor.css">
+        <link rel="stylesheet" href="./assets/css/produto/produto-produto.css">
+        <link rel="stylesheet" href="./assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
+        <link rel="stylesheet" href="./assets/css/componentes/botao.css">
+        <link rel="stylesheet" href="./assets/css/rodape/container-rodape.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-link.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-item.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-redes.css">
+        <link rel="stylesheet" href="./assets/css/rodape/contato-tem.css">
+        <link rel="stylesheet" href="./assets/css/form/container-form.css">
+        <link rel="stylesheet" href="./assets/css/form/form-titulo.css">
+        <link rel="stylesheet" href="./assets/css/form/form-nome.css">
+        <link rel="stylesheet" href="./assets/css/form/form-texto.css">
+        <link rel="stylesheet" href="./assets/css/form/form-botao.css">
+        <link rel="stylesheet" href="./assets/css/footer/container-footer.css">
+        <link rel="stylesheet" href="./assets/css/footer/footer-nome.css"> 
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho__item">
+                <a href="./index.html"><img src="./assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                <div class="box-search">
+                    <input class="cabecalho__search" type="text" placeholder="Procure um produto" id="search" data-search>
+                    <img class="lupa__search"src="./assets/img/cabecalho/search.svg" alt="lupa pesquisar">
+                </div>
+                <nav class="cabecalho__cliente">
+                    <a href="./cliente/cadastro.html"><button class="cabecalho__botao">Cadastro</button></a>  
+                    <a href="./login.html"><button class="cabecalho__botao">Login</button></a>
+                </nav>
+            </div>
+        </header>
+        <div class="mobile">
+            <nav id="mobile__menu"> 
+                <span aria-label="Abrir Menu" id="mobile__btn" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></span>
+                <ul class="mobile__lista" role="menu">                   
+                    <a class="mobile__item--link" href="./cliente/cadastro.html"><li class="mobile__item">Cadastro</li></a>
+                    <a class="mobile__item--link" href="./login.html"><li class="mobile__item">Login</li></a>
+                </ul>
+            </nav>
+        </div>
+        <main class="container__banner">
+            <div class="banner__info">
+                <h1 class="banner__intro" data-anime="left">Dezembro Promocional</h1>
+                <p class="banner__promocao" data-anime="left">Produtos selecionados com 33% de desconto</p>
+                <span>
+                    <button class="banner__botao" data-anime="left">Ver Consoles</button>
+                </span>
+            </div>
+        </main>
+        <section class="fantasma container" data-pesquisa >
+            <div class="produto">
+                <h1 class="titulo_section tseash">Pesquisa</h1>
+            </div>
+            <div class="lista__fantasma--div" data-pesquisaD>
+
+            </div>
+        </section>
+        <section class="fantasma container" data-verProduto data-secProduto-d>
+            <div class="produto">
+                <h1 class="titulo_section verProduto">Descrição</h1>
+            </div>
+            <div class="lista__fantasma--div" data-verProdutoD>
+
+            </div>
+        </section>
+        <section class="container ac ab" data-secProduto >
+            <div class="produto">
+                <h1 class="titulo_section"data-anime="left">Star Wars</h1>
+                <a class="verTudo" data-anime="right" data-TodosStarWar>Ver tudo </a>
+            </div>
+            <div class="lista" data-produto data-tabelaProduto data-anime="down">
+
+            </div>
+        </section>
+        <section class="container bc ab" data-secProduto >
+            <div class="produto">
+                <h1 class="titulo_section" data-anime="left">Consoles</h1>
+                <a class="verTudo" data-anime="right" data-TodosConsoles>Ver tudo</a>
+            </div>
+            <div class="lista" data-console data-tabelaProduto data-anime="down">
+
+            </div>
+        </section>
+        <section class="container bc ac" data-secProduto>
+            <div class="produto">
+                <h1 class="titulo_section" data-anime="left">Diversos</h1>
+                <a class="verTudo" data-anime="right" data-TodosDiversos>Ver tudo</a>
+            </div>
+            <div class="lista" data-diverso data-tabelaProduto data-anime="down">
+
+            </div>
+        </section>
+        <section class="container__rodape" data-anime="down">
+            <div class="container__rodape--div">
+                <div class="rodape__contato">
+                    <img src="./assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo">
+                    <nav class="rodape__menu">
+                        <ul class="contato__redes">
+                            <li class="contato__item"><a href="https://github.com/RamonRodSou"><img src="./assets/img/redes/icon_github.png" class="contato__github"
+                                    alt="Logo e Link do Github"></a></li>
+                            <li class="contato__item"><a href="https://www.linkedin.com/in/ramonrodsouza/"><img src="./assets/img/redes/icon_linkedin.png" class="contato__linkdin"
+                                    alt="Logo e Link do Linkdin"></a></li>
+                            <li class="contato__item"><a href="https://api.whatsapp.com/send/?phone=5521972923210&text&app_absent=0"><img
+                                    src="./assets/img/redes/icon_whatsapp.png" class="contato__whatsapp" alt="Logo e Link do Whatsapp"></a></li>
+                        </ul>
+                  </nav>
+                </div>
+                <div class="rodape__link">
+                    <a href="" class="rodape__item">Quem somos nós</a>
+                    <a href="" class="rodape__item">Política de privacidade</a>
+                    <a href="" class="rodape__item">Programa fidelidade</a>
+                    <a href="" class="rodape__item">Nossas lojas</a>
+                    <a href="" class="rodape__item">Quero ser franqueado</a>
+                    <a href="" class="rodape__item">Anuncie aqui</a>
+                </div>
+                <form  class="container__form" action="https://formspree.io/f/xayzveql" method="POST">
+                    <p class="form__titulo">Fale conosco</p>
+                    <div class="input-container input-container__invalido" >
+                        <input name="nome" id="nome" class="input form__nome" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>
+                        <label class="input-label" for="nome">Nome</label>
+                        <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                    </div>
+                    <div class="input-container input-container__invalido" >
+                        <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                        <textarea name="menssage"  class=" form__texto"  cols="20" rows="10"
+                        placeholder="Escreva sua mensagem" required></textarea>
+                    </div>
+                    <button class="form__botao">Enviar mensagem</button>
+                </form> 
+            </div>
+        </section>
+        <footer class="container__footer">
+            <p class="footer__nome">Desenvolvedor Ramon Rodrigues 2023</p>
+        </footer>
+        <script type="module" src="../src/produto/listaProduto-controller.js"></script>  
+        <script type="module" src="../src/validacoes/efeitos.js"></script>      
+    
+    </body>
+</html>

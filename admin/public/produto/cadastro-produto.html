@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Geek | Cadastrar Produto</title>
+        <link rel="stylesheet" href="../../assets/css/reset/reset.css">
+        <link rel="stylesheet" href="../assets/css/geral/style.css">
+        <link rel="stylesheet" href="../assets/css/geral/container-form.css">
+        <link rel="stylesheet" href="../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-item.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="../assets/css/banner/container-banner.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-info.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-intro.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-promocao.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-botao.css">
+        <link rel="stylesheet" href="../assets/css/login/login-email.css">
+        <link rel="stylesheet" href="../assets/css/login/login-senha.css">
+        <link rel="stylesheet" href="../assets/css/login/login-entrar.css">
+        <link rel="stylesheet" href="../assets/css/login/login-botao.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto-titulo.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto-form.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto-botao.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto-categoria.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/cadastroProduto-categoriaTitulo.css">
+        <link rel="stylesheet" href="../assets/css/cadastroProduto/inputs.css">
+        <link rel="stylesheet" href="../assets/css/perfil/perfil-botao.css">
+        <link rel="stylesheet" href="../assets/css/perfil/container-perfilNav.css">
+        <link rel="stylesheet" href="../assets/css/footer/container-footer.css">
+        <link rel="stylesheet" href="../assets/css/footer/footer-nome.css"> 
+        
+    </head>
+    <body>
+        <header class="cabecalho container">
+            <nav class="cabecalho__item">
+                <a href="../index.html"><img src="../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                <div class="container__perfil--nav">
+                    <a href="../perfil-adm.html"><button class="perfil__botao">Perfil</button></a>
+                    <a href="../login.html"><button class="perfil__botao">Sair</button></a>
+                </div>
+            </nav>
+        </header>
+        <main class="container__form"> 
+            <section class="cadastroProduto">
+                <h1 class="cadastroProduto__titulo">Cadastrar um produto</h1>
+                <form class="cadastroProduto__form" data-formProduto>
+                    <div class="cadastroProduto__img">
+                        <input type="url" name="input" id="input" class="input" accept="image/*" data-img data-tipo="img" required>
+                        <label class="input-label" for="nome">URL Imagem</label>
+                        <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </div>
+                    <div class="cadastroProduto__nome">
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>
+                        <label class="input-label" for="nome">Nome</label>
+                        <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </div>
+                    <div class="cadastroProduto__valor input-container cadastro__preco-container">
+                        <input name="preco" id="preco" class="input" type="number" placeholder="Preço" data-valor data-tipo="preco" required>
+                        <label class="input-label" for="preco">Preço</label>
+                        <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </div>
+                    <div class="cadastroProduto__descricao input-container cadastro__descricao-container">
+                        <input class="input" name="descricao" id="descricao" placeholder="Descrição" data-descricao data-tipo="descricao" wrap required >
+                        <label class="input-label" for="descricao">Descrição</label>
+                        <span class="input-mensagem-erro">Este campo não está válido</span>
+                    </div>
+                    <fieldset class="cadastroProduto__categoria">
+                        <legend class="cadastroProduto__categoria--titulo">Escolha uma Categoria</legend>
+                        <div>
+                            <input name="categoria" id="categoriaStarwars" class="input" type="radio" value="1" data-categoriaS>
+                            <label class="input-label" for="categoriaStarwars">StarWars</label>
+                        </div>
+                        <div>
+                            <input name="categoria" id="categoriaConsole" class="input" type="radio" value="2" data-categoriaC>
+                            <label class="input-label" for="categoriaConsole">Console</label>
+                        </div>
+                        <div>       
+                            <input name="categoria" id="categoriaDiversos" class="input" type="radio" value="3" data-categoriaD checked>
+                            <label class="input-label" for="categoriaDiversos">Diversos</label>
+                        </div>
+                        <span class="input-mensagem-erro">Mensagem genérica de erro</span>
+                    </fieldset>
+                    <button type="submit" class="cadastroProduto__botao"><a href="./lista-produto.html"></a>Add Produto</a></button>
+
+                </form>
+            </section>
+        </main>
+        <footer class="container__footer">
+            <p class="footer__nome">Desenvolvedor Ramon Rodrigues 2023</p>
+        </footer>
+        <script type="module" src="../../src/validacoes/app.js"></script>
+        <script type="module" src="../../src/produto/cadastraProduto-controller.js"></script>
+
+    </body>
+    </html>
+    

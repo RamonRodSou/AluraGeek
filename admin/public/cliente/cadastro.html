@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Alura Geek | Cadastrar</title>
+        <link rel="stylesheet" href="../assets/css/reset/reset.css">
+        <link rel="stylesheet" href="../assets/css/geral/style.css">
+        <link rel="stylesheet" href="../assets/css/geral/_variaveis.css">
+        <link rel="stylesheet" href="../assets/css/geral/titulo.css">
+        <link rel="stylesheet" href="../assets/css/geral/container-form.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-item.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-LogoPesquisa.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botao.css">
+        <link rel="stylesheet" href="../assets/css/banner/container-banner.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-info.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-intro.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-promocao.css">
+        <link rel="stylesheet" href="../assets/css/banner/banner-botao.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-nome.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-email.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-senha.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-entrar.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-botao.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-data.css">
+        <link rel="stylesheet" href="../assets/css/componentes/cartao.css">
+        <link rel="stylesheet" href="../assets/css/componentes/inputs.css">
+        <link rel="stylesheet" href="../assets/css/componentes/botao.css">
+        <link rel="stylesheet" href="../assets/css/cadastro/cadastro-botao.css">
+        <link rel="stylesheet" href="../assets/css/footer/container-footer.css">
+        <link rel="stylesheet" href="../assets/css/footer/footer-nome.css"> 
+    </head> 
+    <body>
+        <header class="cabecalho container">
+            <nav class="cabecalho__item">
+                <a href="../index.html"><img src="../assets/img/cabecalho/Logo.png" alt="Logo Alura Geek" class="cabecalho__logo"></a>
+                <a href="../login.html"><button class="cabecalho__botao">Login</button></a>
+            </nav>
+        </header>
+        <section class="container__form">
+            <h1 class="titulo">Cadastrar</h1>
+            <form class="cadastro__entrar" data-form>
+                <div class="input-container input-container__invalido" >
+                    <input name="nome" id="nome" class="input cadastro__nome" type="text" placeholder="Nome" data-nome  data-tipo="nome" required>
+                    <label class="input-label" for="nome">Nome</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="email" id="email" class="input cadastro__email" type="email" placeholder="Email" data-email data-tipo="email" required>
+                    <label class="input-label" for="email">Email</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="input-container">
+                    <input name="senha" id="senha" class="input cadastro__senha" type="password" placeholder="Senha" data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-senha required>
+                    <label class="input-label" for="senha">Senha</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="input-container">
+                    <input name="nascimento" id="nascimento" class=" input cadastro__data" type="date" placeholder="Data de nascimento" data-data data-tipo="dataNascimento" required>
+                    <label class="input-label" for="nascimento">Data de nascimento</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span> 
+                </div>
+                <!--<div class="input-container">
+                    <input name="cpf" id="cpf" class="input input__cpf" type="text" placeholder="CPF" data-tipo="cpf" required>
+                    <label class="input-label" for="cpf">CPF</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div> -->
+                <a  href="./cadastro-concluido.html"><button type="submit" class="cadastro__botao">Cadastrar</button></a>
+            </form>
+        </section>
+        <footer class="container__footer">
+            <p class="footer__nome">Desenvolvedor Ramon Rodrigues 2023</p>
+        </footer>
+        <script type="module" src="../../src/validacoes/app.js"></script>
+        <script type="module" src="../../src/cliente/cadastraClientes-controller.js"></script>
+    </body>
+</html>

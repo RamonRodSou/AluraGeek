@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "admin/": "public/", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "admin/page": "/(.*)", "dest": "/index.html" }
+  ]
+}

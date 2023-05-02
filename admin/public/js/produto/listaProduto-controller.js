@@ -53,7 +53,7 @@ const render = async () =>  {
   }
   catch(erro){
       console.log(erro)
-      window.location.href="../public/erro.html"
+      window.location.href="../erro.html"
   }
 }
 render()

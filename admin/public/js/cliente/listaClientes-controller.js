@@ -33,7 +33,7 @@ tabela.addEventListener('click', async (evento)=> {
         }
         catch(erro){
             console.log(erro)
-            window.location.href="../../public/erro.html"
+            window.location.href="../erro.html"
         }
     }
 })
@@ -48,7 +48,7 @@ const render = async () =>  {
     }
     catch(erro){
         console.log(erro)
-        window.location.href="../../public/erro.html"
+        window.location.href="../erro.html"
     }
     
 }

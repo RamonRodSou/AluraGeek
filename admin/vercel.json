@@ -1,9 +1,8 @@
 {
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" }
-  ],
-  "env": {
-    "MY_VAR": "my-value"
-  },
-  "public": true
+  "builds": [
+    {
+      "src": "db.json",
+      "use": "@vercel/static"
+    }
+  ]
 }

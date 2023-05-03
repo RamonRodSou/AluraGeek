@@ -4,5 +4,12 @@
       "src": "db.json",
       "use": "@vercel/static"
     }
-  ]
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" }
+  ],
+  "env": {
+    "MY_VAR": "my-value"
+  },
+  "public": true
 }

@@ -8,6 +8,10 @@
 
   "builds": [
     {
+      "src": "public/**/*.html, src/**/*.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "db.json",
       "use": "@vercel/static"
     },

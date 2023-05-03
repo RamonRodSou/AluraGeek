@@ -5,5 +5,30 @@
   "env": {
     "MY_VAR": "my-value"
   },
-  "public": true
+
+  "builds": [
+    {
+      "src": "db.json",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/js/clientes/**/*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/js/poduto/**/*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/js/service/**/*.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/js/validacoes/**/*.js",
+      "use": "@vercel/static"
+    }
+  ],
+  
+   "public": true
+
 }

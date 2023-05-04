@@ -8,7 +8,15 @@
 
   "builds": [
     {
-      "src": "public/**/*.html, src/**/*.html",
+      "src": "public/**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/cliente/**/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/produto/**/*.html",
       "use": "@vercel/static"
     },
     {
@@ -16,11 +24,11 @@
       "use": "@vercel/static"
     },
     {
-      "src": "public/js/clientes/**/*.js",
+      "src": "public/js/cliente/**/*.js",
       "use": "@vercel/static"
     },
     {
-      "src": "public/js/poduto/**/*.js",
+      "src": "public/js/produto/**/*.js",
       "use": "@vercel/static"
     },
     {

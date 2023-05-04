@@ -1,39 +1,19 @@
 {
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" }
-  ],
-  "env": {
-    "MY_VAR": "my-value"
-  },
-
   "builds": [
     {
-      "src": "public/**/*.html",
-      "use": "@vercel/static"
-    },
-
-    {
-      "src": "db.json",
+      "src": "public/**",
       "use": "@vercel/static"
     },
     {
-      "src": "public/js/cliente/**/*.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/js/produto/**/*.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/js/service/**/*.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "public/js/validacoes/**/*.js",
-      "use": "@vercel/static"
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
     }
   ],
-  
-   "public": true
-
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/api/db",
+      "dest": "/api/db.json"
+    }
+  ]
 }

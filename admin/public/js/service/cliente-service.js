@@ -1,5 +1,5 @@
 const listaClientes = () =>  {
-    return fetch(`http://localhost:3000/profile`)
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/alurageekbd/profile`)
     .then(resposta => {
         if(resposta.ok){
             return resposta.json()
@@ -7,9 +7,9 @@ const listaClientes = () =>  {
         throw new Error('Não foi possível listar os clientes')
     })
 }
-
+ 
 const criaCliente = (nome, email, senha, data, tipo) => { 
-    return fetch(`http://localhost:3000/profile`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/alurageekbd/profile`, {
         method: 'POST', 
         headers: {
             'Content-Type' : 'application/json'
@@ -31,7 +31,7 @@ const criaCliente = (nome, email, senha, data, tipo) => {
 }
 
 const removeCliente = (id) => { 
-    return fetch(`http://localhost:3000/profile/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/alurageekbd/profile/${id}`, {
         method: 'DELETE'
     })
     .then( resposta => { 
@@ -42,7 +42,7 @@ const removeCliente = (id) => {
 }
  
 const detalhaCliente = (id) => { 
-    return fetch(`http://localhost:3000/profile/${id}`)
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/alurageekbd/profile/${id}`)
     .then(resposta => { 
         if(resposta.ok){
             return resposta.json()
@@ -53,7 +53,7 @@ const detalhaCliente = (id) => {
 }
 
 const atualizaCliente = (id, nome, email, senha, data, tipo) => {
-    return fetch(`http://localhost:3000/profile/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/alurageekbd/profile/${id}`, {
         method: 'PUT',
         headers: { 
             'Content-type' : 'application/json'

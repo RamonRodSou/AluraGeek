@@ -1,5 +1,5 @@
 const listaProduto = () =>  {
-    return fetch(`http://localhost:3000/produto`)
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/AluraGeekBD/produto/`)
     .then(resposta => {
         if(resposta.ok){
             return resposta.json()
@@ -9,7 +9,7 @@ const listaProduto = () =>  {
 }
 
 const criaProduto = (imageUrl, nome, valor, descricao, categoria) => { 
-    return fetch(`http://localhost:3000/produto`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/AluraGeekBD/produto/`, {
         method: 'POST', 
         headers: {
             'Content-Type' : 'application/json'
@@ -31,7 +31,7 @@ const criaProduto = (imageUrl, nome, valor, descricao, categoria) => {
 }
 
 const removeProduto = (id) => { 
-    return fetch(`http://localhost:3000/produto/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/AluraGeekBD/produto//${id}`, {
         method: 'DELETE'
     })
     .then( resposta => { 
@@ -42,7 +42,7 @@ const removeProduto = (id) => {
 }
  
 const detalhaProduto = (id) => {  
-    return fetch(`http://localhost:3000/produto/${id}`)
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/AluraGeekBD/produto//${id}`)
     .then(resposta => { 
         if(resposta.ok){
             return resposta.json()
@@ -53,7 +53,7 @@ const detalhaProduto = (id) => {
 }
 
 const atualizaProduto = (imageUrl, nome, valor, descricao, categoria, id) => {
-    return fetch(`http://localhost:3000/produto/${id}/${categoria}`, {
+    return fetch(`https://my-json-server.typicode.com/RamonRodSou/AluraGeekBD/produto//${id}/${categoria}`, {
         method: 'PUT',
         headers: { 
             'Content-type' : 'application/json'

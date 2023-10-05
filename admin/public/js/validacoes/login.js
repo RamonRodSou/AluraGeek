@@ -2,7 +2,8 @@ const login = document.querySelector('[data-login]')
   login.addEventListener('click', () => {
     const email = document.querySelector('[data-email]').value
     const senha = document.querySelector('[data-senha]').value
-    fetch('../db.json').then((response) => {
+    
+    fetch('https://my-json-server.typicode.com/RamonRodSou/alurageekbd/db').then((response) => {
       response.json().then((db) => {
         const usuarioCargo = db.profile.find(usuario => usuario.email === email && usuario.senha === senha && usuario.tipo === 1320);
         const usuarioEncontrado = db.profile.find(usuario => usuario.email === email && usuario.senha === senha);

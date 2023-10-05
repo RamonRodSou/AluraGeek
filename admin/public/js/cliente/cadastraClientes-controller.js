@@ -11,7 +11,7 @@ formulario.addEventListener('submit', async (evento) => {
     const data = evento.target.querySelector('[data-data]').value
     const tipo = 50
     
-    fetch('../../db.json').then((response) => {
+    fetch('https://my-json-server.typicode.com/RamonRodSou/alurageekbd/db').then((response) => {
       response.json().then((db) => {
         const usuarioCargo = db.profile.find(evento => evento.email === email)
         window.console.log(usuarioCargo)
@@ -20,6 +20,8 @@ formulario.addEventListener('submit', async (evento) => {
         }
         else {
           clienteService.criaCliente(nome, email, senha, data, tipo)
+          alert('Cadastro concluído')
+
           window.location.href = './cadastro-concluido.html'
         }
      })

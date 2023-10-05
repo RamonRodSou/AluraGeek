@@ -14,3 +14,13 @@
     height: 300px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 560px) {
+
+
+    .produto__img {
+
+        width: 130px;
+        height: 130px;
+    }
+}

@@ -25,18 +25,34 @@
       "id": 5
     },
     {
-      "nome": "SamaraR",
+      "nome": "SamaraRod",
       "email": "samara@gmail.com",
       "senha": "Sa123456",
       "data": "2000-02-20",
       "tipo": 50,
       "id": 6
+    },
+    {
+      "nome": "testando",
+      "email": "testando@teste",
+      "senha": "Ts123456",
+      "data": "2000-02-20",
+      "tipo": 50,
+      "id": 9
+    },
+    {
+      "nome": "testando2",
+      "email": "elosaisa@gmail.com",
+      "senha": "Ra123456",
+      "data": "2000-02-20",
+      "tipo": 50,
+      "id": 10
     }
   ],
   "produto": [
     {
       "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643528615612467/1.png",
-      "nome": "Caneca Clones",
+      "nome": "Caneca Clones2",
       "valor": "120",
       "descricao": "A caneca dos personagens clones do filme Star Wars é um item essencial para os fãs da saga épica de ficção científica. A caneca apresenta uma imagem impressa de alta qualidade de vários clones troopers em ação, vestidos com sua icônica armadura branca. A arte é rica em detalhes, com cada clone trooper mostrando uma postura dinâmica e imponente, enquanto empunha suas armas blaster.  A caneca é fabricada em cerâmica de alta qualidade, com capacidade para cerca de 325ml de líquido. Ela é resistente e durável, adequada para uso diário ou para ser exibida como uma peça de colecionador. A alça da caneca é confortável e fácil de segurar, e a borda é arredondada para facilitar a degustação da sua bebida favorita.  Esta caneca é perfeita para os fãs de Star Wars que apreciam uma boa xícara de café, chá ou qualquer outra bebida quente ou fria. Ela também é uma ótima opção de presente para amigos ou familiares que compartilham do amor pela franquia Star Wars e seus personagens icônicos.",
       "categoria": "1",
@@ -65,14 +81,6 @@
       "descricao": "O boneco dos clones trooper é uma figura de ação incrivelmente detalhada dos soldados clonados do universo Star Wars. Este boneco é uma réplica fiel dos troopers em sua icônica armadura branca, que aparecem em muitas cenas de batalha emocionantes da franquia Star Wars.  O boneco apresenta cerca de 15cm de altura e é feito de material durável e resistente. Os detalhes na armadura são notáveis, desde o capacete até os ombros, peitoral e pernas, além de pequenos detalhes como os emblemas em seus braços e peito. As articulações em vários pontos permitem que a figura seja posicionada em diversas poses e cenas de ação, com acessórios como armas blaster e mochilas removíveis, proporcionando ainda mais opções de personalização.  O boneco dos clones trooper é perfeito para os fãs de Star Wars que desejam recriar cenas emocionantes de batalha do universo Star Wars. Além disso, é um item de colecionador imperdível para os fãs da franquia que apreciam a estética icônica dos troopers e desejam expandir sua coleção de figuras de ação.  Este boneco também é um presente incrível para amigos e familiares que são fãs de Star Wars e desejam adicionar à sua coleção de memorabilia. Com o boneco dos clones trooper em sua coleção, os fãs podem recriar batalhas épicas, celebrar sua paixão por Star Wars e dar vida ao universo da franquia em suas próprias casas.",
       "categoria": "1",
       "id": 4
-    },
-    {
-      "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643530029088848/5.png",
-      "nome": "Boneco Yoda Kid",
-      "valor": "500",
-      "descricao": "O boneco do Yoda Kid é uma figura de ação adorável e detalhada do jovem Yoda, como ele apareceu no filme \"Star Wars: Episódio II - Ataque dos Clones\". Esta figura representa o Yoda como um jovem padawan, antes de se tornar o Mestre Jedi sábio e poderoso que os fãs conhecem e amam.  Com cerca de 9 cm de altura, o boneco do Yoda Kid é feito de material durável e resistente. A figura apresenta detalhes impressionantes, desde as rugas em seu rosto até as dobras de sua túnica marrom e capuz. Sua cabeça é esculpida com grande atenção aos detalhes, apresentando orelhas pontudas, olhos brilhantes e cabelos longos e grisalhos.  O boneco também é articulado em vários pontos, permitindo uma ampla gama de movimentos e poses. A figura vem com um sabre de luz verde, para que os fãs possam recriar cenas de batalha empolgantes com este jovem Jedi.  O boneco do Yoda Kid é uma peça de colecionador imperdível para os fãs de Star Wars que desejam expandir sua coleção de figuras de ação. Além disso, é um item adorável para fãs de todas as idades, que apreciam o personagem icônico do jovem Yoda.  Este boneco é um presente incrível para amigos e familiares que são fãs de Star Wars, especialmente aqueles que têm uma afinidade particular pelo personagem do jovem Yoda. Com a figura do Yoda Kid em sua coleção, os fãs podem recriar cenas emocionantes do universo Star Wars, celebrar sua paixão pela saga e exibir orgulhosamente seu amor pelo jovem padawan Jedi.",
-      "categoria": "1",
-      "id": 5
     },
     {
       "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102643530461089822/6.png",
@@ -173,7 +181,7 @@
     {
       "imageUrl": "https://cdn.discordapp.com/attachments/1078331260377776219/1102655261195382784/6.png",
       "nome": "Ursinho do Pikachu",
-      "valor": "150",
+      "valor": "100",
       "descricao": "O ursinho de pelúcia do Pikachu é uma peça de colecionador perfeita para fãs de Pokémon e amantes de pelúcias fofas e macias. Ele é um modelo em miniatura do personagem icônico da franquia Pokémon, apresentando seu design amarelo com listras pretas, bochechas rosadas e grandes orelhas pontudas.  Feito de pelúcia de alta qualidade, o ursinho do Pikachu é extremamente macio e agradável ao toque, sendo uma ótima opção para abraçar ou para exibir em prateleiras e estantes. Além disso, ele vem com uma etiqueta oficial da The Pokémon Company, garantindo sua autenticidade e qualidade.  Ter um ursinho do Pikachu em sua coleção pode ser uma maneira de mostrar seu amor pela franquia Pokémon e pelo personagem icônico. Ele pode ser um presente perfeito para crianças e adultos que são fãs de Pokémon ou para quem quer adicionar um toque de fofura e diversão em sua decoração.  Portanto, se você é um fã de Pokémon ou simplesmente adora ursinhos de pelúcia fofos, ter um ursinho do Pikachu é uma excelente escolha para adicionar em sua coleção ou presentear alguém especial.",
       "categoria": "3",
       "id": 18

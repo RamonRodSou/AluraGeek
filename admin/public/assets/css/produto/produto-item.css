@@ -50,4 +50,8 @@
         gap: 2rem;
         margin-bottom: 2rem;
     }
+
+    .item {
+        width: 130px;
+    }
 }

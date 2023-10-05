@@ -19,11 +19,15 @@ import verTodosProdutosSection from './verTudo-controller.js'
                   <img src="../assets/img/lista/config.png" alt="Botao Editar" class="botao__produto--config" data-editar> 
               </a>
           </div>
-          <img src="${imageUrl}" data-produtoImg alt="Produto ${nome}" class="produto__img">
-          <p class="produto__nome" data-produtoNome>${nome}</p>
-          <p class="produto__valor" data-produtoValor>R$:${valor}</p>
-          <p class="produto__descricao-none" data-ProdutoDescricao>${descricao}</p>
-          <a href="./index.html?id=${id}?categoria=${categoria}"  class="produto__produto lista__verProduto" data-id=${id} >Ver produto</a>
+          <div>
+           <img src="${imageUrl}" data-produtoImg alt="Produto ${nome}" class="produto__img">
+          </div>
+          <div class="produto__descricaoT">
+            <p class="produto__nome" data-produtoNome>${nome}</p>
+            <p class="produto__valor" data-produtoValor>R$:${valor}</p>
+            <p class="produto__descricao-none" data-ProdutoDescricao>${descricao}</p>
+            <a href="./index.html?id=${id}?categoria=${categoria}"  class="produto__produto lista__verProduto" data-id=${id} >Ver produto</a>
+          </div>
                     `
     linhaNovoProduto.innerHTML = conteudo
     linhaNovoProduto.dataset.id = id
